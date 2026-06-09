@@ -25,13 +25,13 @@ This is your project home for the FURP programme. **Fork this template**, rename
 
 | Field | Your entry |
 |---|---|
-| Student name(s) | _e.g. Jason Zhang_ |
+| Student name(s) | _Yuanyuan Xie_ |
 | Project title | _..._ |
-| Project tag | _e.g. ROSBootcamp_ |
+| Project tag | _Deep RL for Electric Vehicle Routing with Time Windows (EVRP-TW)_ |
 | Track | Research |
-| Supervising faculty | _..._ |
-| Project lead | _..._ |
-| Team or individual | _..._ |
+| Supervising faculty | _Tianxiang Cui_ |
+| Project lead | _Yuanyuan Xie_ |
+| Team or individual | _Individual_ |
 | Cited paper being replicated | _title + link/DOI_ |
 
 **One-line summary:** _What is your project about? (1–2 sentences)_

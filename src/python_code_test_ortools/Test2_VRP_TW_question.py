@@ -72,7 +72,7 @@ def main():
     routing.SetArcCostEvaluatorOfAllVehicles(transit_callback_index)
     #同test1
 
-    print("CheckPoint1-----------------\n")
+    print("-----------------\n")
 
     #[Different Part] Add the time constraint conditions
     #create time dimension
@@ -132,3 +132,53 @@ def main():
 #主程序约束
 if __name__ == "__main__":
     main()
+
+
+"""
+测试输入输出:
+Enter the number of vehicles:4
+
+-----------------
+
+Route for vehicle1:
+
+0 (time:0-0) -> 
+9 (time:2-3) -> 
+14 (time:7-8) -> 
+16 (time:11-11) -> 
+0 (time:18-18), End.
+Time of this route = 18
+
+Route for vehicle2:
+
+0 (time:0-0) -> 
+7 (time:2-4) -> 
+1 (time:7-11) -> 
+4 (time:10-13) -> 
+3 (time:16-16) -> 
+0 (time:24-24), End.
+Time of this route = 24
+
+Route for vehicle3:
+
+0 (time:0-0) -> 
+12 (time:4-4) -> 
+13 (time:6-6) -> 
+15 (time:11-11) -> 
+11 (time:14-14) -> 
+0 (time:20-20), End.
+Time of this route = 20
+
+Route for vehicle4:
+
+0 (time:0-0) -> 
+5 (time:3-3) -> 
+8 (time:5-5) -> 
+6 (time:7-7) -> 
+2 (time:10-10) -> 
+10 (time:14-14) -> 
+0 (time:20-20), End.
+Time of this route = 20
+
+Total time of all routes:82
+"""

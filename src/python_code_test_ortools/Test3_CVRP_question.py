@@ -64,7 +64,7 @@ def main():
         "Capacity"
     )
 
-    #print("CheckPoint------------------------\n")
+    print("------------------------\n")
 
     search_parameters = pywrapcp.DefaultRoutingSearchParameters()
     search_parameters.first_solution_strategy = (
@@ -104,3 +104,53 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+测试输入输出:
+Enter the number of vehicles:
+4
+------------------------
+
+Route for vehicle1:
+
+0 -> 
+7 -> 
+3 -> 
+4 -> 
+1 -> 
+0, End.
+Distance of this route = 1552m
+
+Route for vehicle2:
+
+0 -> 
+14 -> 
+16 -> 
+10 -> 
+9 -> 
+0, End.
+Distance of this route = 1552m
+
+Route for vehicle3:
+
+0 -> 
+12 -> 
+11 -> 
+15 -> 
+13 -> 
+0, End.
+Distance of this route = 1552m
+
+Route for vehicle4:
+
+0 -> 
+8 -> 
+2 -> 
+6 -> 
+5 -> 
+0, End.
+Distance of this route = 1552m
+
+Total time of all routes:6208m
+"""

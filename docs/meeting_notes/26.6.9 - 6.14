@@ -1,0 +1,15 @@
+-26.6.9
+downloading python 3.11.15 (using XZfile & Visual Studio)
+the setting of virtual environment
+simple test of importing ortools
+
+-26.6.10
+Make Schedules
+Using ortools solve basic VRP question (almost TSP) -> Test1.py
+train python writting skills
+(writting style transition: from C++ competition to python project)
+
+-26.6.11
+Using ortools solve basic VRP-TW question
+Using ortools solve basic CVRP question
+Learn math (for RL/POMO) - review & study -part1:matrix (矩阵运算：矩阵乘法、转置、广播)

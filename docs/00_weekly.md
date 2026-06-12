@@ -30,20 +30,28 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
-### Week 1 — YYYY-MM-DD
+### Week 1 — 2026-6-8 to 6-12
 
-**Attended this week's meeting:** Yes / No
+**Attended this week's meeting:** Yes 
 
 **Progress this week**
 - Set up repository from the FURP template.
-- _..._
+- Prepare python 3.11 for ortools & set vrp_env for exercises.
+- Use OrTools to solve basic VRP questions in python.
+- Start learning important math knowledge for DRL/POMO
 
 **Challenges & blockers**
-- _..._
+- The method of writing Python sentence (switching from C++ competition code style)
+- The lack of math basic knowledge (as a y1 math student)(learning...)
+- 目前感觉读代码+复现项目还是比较上手的,但是对于较远的项目目标还是一个[思考ing]的大状态.
 
 **Next steps**
-- _..._
+- Learn how to create test data group.
+- Analysis the algorithem used in or-tools & Summary its advantages and improving spaces.
+- Join the next week Genal AI Training Classes (provided by SEP project).
+- Keep learning and improving my math abilities (mainly matrix & graph)(for understaing POMO & others better).
 
 **Hours spent (optional):**
 
 **Links (optional):**
+https://developers.google.com/optimization/routing?hl=zh-cn

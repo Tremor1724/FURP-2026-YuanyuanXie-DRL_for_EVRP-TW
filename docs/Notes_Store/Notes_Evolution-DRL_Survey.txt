@@ -1,0 +1,135 @@
+Notes here is for:
+Sigaud, O. (2023). Combining evolution and deep reinforcement learning for policy search: A survey. ACM Transactions on Evolutionary Learning, 3(3), 1-20.
+[Materials/ForA/3569096_billingual.pdf]
+(辅助阅读的中文译文内容由WPS翻译提供)
+
+What I learned:
+1. Different kinds of combination (GA+DRL)
+2. Detailed essays for me to read more deeply
+
+Therefore, I will:
+1. Do a summary - as an abstract of this essay
+2. List interesting methods and their original essay together
+
+------------------------------------------------------------------------------------
+1.Introduction (Itself):
+"... is strictly focused on the combinations and attempts to provide a list of relevant papers"
+
+2.EVOLUTION OF POLICIES FOR PERFORMANCE
+
+-2.1 Deep RL Actor Injection
+  ERL & cERL
+(1)在ERL中,通过DDpG学习得到的智能体会定期被注入群体并接受进化选择
+(2)ERL和cERL的主要缺陷在于其依赖遗传算法...基于直接编码的ERL和cERL所使用的遗传算子已被证实存在导致高效个体行为发生灾难性遗忘的风险
+-->Improve
+  近端蒸馏进化强化学习（pDERL）算法
+(1)提出了两种替代的进化算子...[或许可认为是与克隆原理相结合?]
+  进化软演员批评家（EsAc）算法
+  协同异质深度强化学习（cHDRL）架构
+(1)从多个方面扩展了ERL方法
+(2)需要注意的是，如果将强化学习（RL）策略注入进化种群中且进化过程采用直接编码方
+式，则该强化学习策略与进化个体必须共享相同的结构框架
+(3)为此，可以采用任何旨在从复杂策略中提取功能相似但规模更小的策略的策略提炼机制
+  基于行为的神经进化训练（BNET）
+(1)"并非真正采用强化学习（RL）算法，而是运用了一种仅从强化学习中获得松散启发的基于行为的神经进化（BBNE）机制，且不依赖梯度下降法。"
+
+-2.2 RL Gradient Addition
+  cEm-RL
+(1)与向群体中注入强化学习演员不同，这一种方法对群体中的部分成员施加梯度更新步骤.
+(2)结合了交叉熵方法（cEm）与双延迟深度确定性策略梯度（TD3）
+
+-2.3 Evolution from the RL Actor
+在遗传门控网络（G2N）和策略演化的软更新方法（supE-RL）算法中，主循环即为强化学习循环，且进化机制被用于促进探索行为 。
+[G2N - Materials/ForA/NeurIPS-2018-genetic-gated-networks-for-deep-reinforcement-learning-Paper.pdf]
+[supE-RL - Materials/ForA/3101_genetic_soft_updates_for_polic.pdf]
+  G2N
+(1)使用进化算子对基因组进行采样，系统会评估多种智能体架构；表现最佳的架构会在其基因组被用于生成新架构群体之前，先接受一次批评器梯度优化步骤。
+(2)两种G2N实现方案：基于优势智能体批评器（A2c） 的G2Ac，以及基于近端策略优化（ppo） 的G2ppo。
+  supE-RL
+(1)与G2N类似
+(2)区别在于用智能体所有参数的标准高斯噪声变异替代了中心层结构的演化过程
+(3)以及采用软更新机制(if 后代个体优于当前RL智能体: 该智能体将通过软更新机制向该更优后代方向进)
+   (未突变的智能体也会被纳入进化种群中)
+
+-2.4 Using a Surrogate Fitness
+why: (Algorithem Above): 都需要对智能体进行评估以执行进化选择步骤，这可能会降低样本效率
+  sc-ERL & pGps
+(Using critic network as a surrogate for evaluating evolutionary individuals.)
+将批评器作为适应度的替代模型，从而无需生成额外样本即可估算新个体的适应度 [该模块的通用性]
+[sc-ERL:Materials/ForA/A surrogate-assisted controller for expensive evolutionary.pdf]
+(1)sc-ERL架构具有通用性，可应用于我们迄今提出的任何组合方案。实际应用中，该架构被应用于ERL 、pDERL和cEm-RL，并分别衍生出前两种场景下的sERL和spDERL算法。
+(2)pGps算法基于相同理念构建，但将其应用于进化机制与强化学习机制的特定组合框架中
+   (In more detail, half of the population is filled with agents
+   evaluated from the surrogate fitness, whereas the other half are generated with cem. Furthermore,
+   the current td3 actor is injected into the population and benefits from a soft update toward the
+   best agent in the population.)
+  
+
+3.EVOLUTION OF ACTIONS FOR PERFORMANCE
+(topic:where evolution is used to optimize an action in a given staterather than optimizing policy parameters.)
+(e.g.using CEM -> optimize any vector of parameters given some performance function of these
+parameters)
+对连续动作空间的优化处理(∵argmax_a Q(s_t,a)的计算复杂)
+path1:"在演员-评论家方法中，解决此问题的标准方案是将演员的动作视为最佳解的可靠替代指标"
+    即:original: Q(s_t, a_t) ← r(s_t, a_t) +max_a Q(s_(t+1), a) − Q(s_t,a_t)
+    => changed:  the estimated best action (¯a_t) = π(s_t)
+                 Q(s_t, a_t) ← r(s_t, a_t ) + maxa Q(s_(t+1)), π(s_(t+1)) − Q(s_t, a_t)
+path2:a variation-selection method(也就是这一部分的主要介绍内容)
+      *一些涉及到的算法大点兵(虽然没有特别细看但是总之先把表格丢在这里说不定能用上呢x):
+      -算法-      -Critic update-         -Action Selection-          Policy update
+      QT-OPT     CEM(random,64,6,2)     CEM(random,64,6,2)            None
+      CGP        CEM(random,64,6,2)     π(s_t)                        BC or DPG
+      EAS-RL     PSO(10,10)             π(s_t)                        BC + DPG
+      SAC-CEPO   SAC update             CEM(π,60->140,3%->7%,6->14)   BC
+      GRAC       CEM(random,64,6,2)     CEM(π,256,6,2)                PG with 2 loses
+      ZOSPI      DDPG update            π(s_t)+perturb.network        BC(¯a_t = argmax(random, 50))
+[QT-OPT算法 - Materials/ForA/QT-OPT.pdf]
+[QT-OPT衍生 - CGP - Materials/ForA/thoughts_connected_to_OPT.pdf]
+    "As Table 2 shows, the qt-opt algorithm [36] simply samples 64 random actions in the action
+  space and performs two iterations of cem to get a high-performing action, both for critic updates
+  and action selection. It is striking that such a simple method can perform well even in large action
+  spaces. This simple idea was then improved in the cgp algorithm [90] so as to avoid the computational cost of action inference. Instead of using cem to sample an action at each timestep, a policy
+  network is learned based on the behavior of the cem. This network can be seen as a surrogate of
+  the cem sampling process and is trained either from the sampled a¯t using Behavioral Cloning
+  (BC) or following a Deterministic Policy Gradient (DPG) step from the critic"
+[EAS-RL - Materials/ForA/EAS_RL.pdf]
+  -ZOSPI
+  ...采用变异选择机制来更新策略本身而非更新决策者或选择动作——其核心在于梯度下降算法容易陷入局部最小值且可能因各种近似处理而偏离正确方向
+  
+4.EVOLUTION OF POLICIES FOR DIVERSITY
+  (intro)
+  "The tradeoff between exploration and exploitation is central to RL. In particular, when the reward
+  signal is sparse, efficient exploration becomes crucial. All the papers studied in this survey manage a population of agents, hence their capability to explore can benefit from maintaining behavioral
+  diversity between the agents"
+-4.1 [not that important(now)](Novelty Seeking Approaches)
+-4.2 Quality-Diversity Approaches
+  "By contrast with NS approaches that only try to optimize diversity in the population,
+  QD approaches combine this first objective with optimize the performance of registered
+  policies, their quality."
+
+
+5.EVOLUTION OF SOMETHING ELSE
+  进化算法与深度强化学习（RL）的结合应用：
+  一种是利用进化机制优化强化学习过程中其他关键要素；
+  另一种则是运用强化学习机制来改进进化过程，而无需依赖完整的强化学习算法。
+-5.1 Evolution in MBRL(Model-Based Reinforcement Learning)
+-5.2 Evolution of Hyper-parameters
+  HPO
+    GA-DRL & HER :not that clear
+    PBT & AAC
+  (1) is designed to solve this problem by combining distributed RL with an evolutionary mechanism that acts
+      both on the parameters and hyperparameters within the RL training loop.
+  [Materials/ForA/PBT_1.pdf]
+  (2) It was successfully used in several challenging applications
+  [Materials/ForA/PBT_2.pdf]
+  (3) an interesting capability to tune the hyperparameters according to the 
+      current training dynamics, which is an important meta-learning capability
+  [Materials/ForA/Khamassi2017_RobotComputing_PID4650993.pdf]
+  (4) pBT的一个局限性在于每个智能体都使用独立的重放缓冲区.
+    SEARL
+    OHT-ES
+    ...
+  [Connected survey - Materials/ForA/sminton,+13596-Article+(PDF)-30765-1-11-20220531.pdf]
+
+-5.3 [not that important(now)] (Evolution of Miscellaneous RL or Control Components)
+-5.4 Evolution Improved with RL Mechanisms

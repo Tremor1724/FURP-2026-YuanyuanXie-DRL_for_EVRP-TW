@@ -30,7 +30,7 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
-### Week 1 — 2026-6-13 to 6-21
+### Week 2 — 2026-6-13 to 6-21
 
 **Attended this week's meeting:** Yes 
 

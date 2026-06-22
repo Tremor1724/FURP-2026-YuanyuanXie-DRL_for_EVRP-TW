@@ -37,7 +37,7 @@
 **Progress this week**
 - Learn 60% basic Linear Algebra Knowledge
 - Learn necessary knowledge for torch using
-- Learn different combined methods (of evaluation & DRL)
+- Learn different combined methods (of Evolution & DRL)
 
 **Challenges & blockers**
 - Went to hospital, and had to take some rest thie week.(for getting the wisdom tooth extraction on Wed.)

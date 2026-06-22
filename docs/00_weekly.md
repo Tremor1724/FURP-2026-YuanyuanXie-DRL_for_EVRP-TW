@@ -40,7 +40,7 @@
 - Learn different combined methods (of Evolution & DRL)
 
 **Challenges & blockers**
-- Went to hospital, and had to take some rest thie week.(for getting the wisdom tooth extraction on Wed.)
+- Went to hospital, and had to take some rest this week.(for getting the wisdom tooth extraction on Wed.)
 
 **Next steps**
 - Make up the Week2 section work on Week3 Mon.

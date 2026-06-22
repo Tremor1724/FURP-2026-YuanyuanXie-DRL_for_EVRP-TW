@@ -30,6 +30,29 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
+### Week 1 — 2026-6-13 to 6-21
+
+**Attended this week's meeting:** Yes 
+
+**Progress this week**
+- Learn 60% basic Linear Algebra Knowledge
+- Learn necessary knowledge for torch using
+- Learn different combined methods (of evaluation & DRL)
+
+**Challenges & blockers**
+- Went to hospital, and had to take some rest thie week.(for getting the wisdom tooth extraction on Wed.)
+
+**Next steps**
+- Make up the Week2 section work on Week3 Mon.
+- Follow the Week3 section work
+- (Self-work) Go deeper in the combined methods I learnt
+
+**Hours spent (optional):**
+
+**Links (optional):**
+
+----------------------------------------------------------------------------
+
 ### Week 1 — 2026-6-8 to 6-12
 
 **Attended this week's meeting:** Yes 

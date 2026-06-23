@@ -37,7 +37,7 @@
 - Make up the Week2 section work on Week3 Mon.
 
 **Other Details**
-Please check at ../src/Week2/
+- Please check at ../src/Week2/
 
 ----------------------------------------------
 

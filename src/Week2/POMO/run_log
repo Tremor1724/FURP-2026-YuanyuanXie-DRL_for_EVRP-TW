@@ -1,0 +1,2264 @@
+[2026-06-22 18:31:21] train_evrptw_50.py(123) : DEBUG_MODE: False
+[2026-06-22 18:31:21] train_evrptw_50.py(124) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2026-06-22 18:31:21] train_evrptw_50.py(125) : env_params{'problem_size': 50, 'pomo_size': 50, 'n_stations': 5, 'battery_capacity': 3.0}
+[2026-06-22 18:31:21] train_evrptw_50.py(125) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'softmax'}
+[2026-06-22 18:31:21] train_evrptw_50.py(125) : optimizer_params{'optimizer': {'lr': 0.0001, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [400, 600], 'gamma': 0.1}}
+[2026-06-22 18:31:21] train_evrptw_50.py(125) : trainer_params{'use_cuda': True, 'cuda_device_num': 0, 'epochs': 320, 'train_episodes': 2000, 'train_batch_size': 24, 'prev_model_path': None, 'logging': {'model_save_interval': 100, 'img_save_interval': 100, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_evrptw_50.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss_1.json'}}, 'model_load': {'enable': False}}
+[2026-06-22 18:31:21] train_evrptw_50.py(125) : logger_params{'log_file': {'desc': 'train_evrptw_n50', 'filename': 'run_log', 'filepath': './result/20260622_193120_train_evrptw_n50'}}
+[2026-06-22 18:31:23] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:31:23] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:31:25] EVRPTWTrainer.py(145) : Epoch   1: Train  24/2000(1.2%)  Score: 118.5898,  Loss: -1.0860
+[2026-06-22 18:31:26] EVRPTWTrainer.py(145) : Epoch   1: Train  48/2000(2.4%)  Score: 109.2781,  Loss: -4.4263
+[2026-06-22 18:31:27] EVRPTWTrainer.py(145) : Epoch   1: Train  72/2000(3.6%)  Score: 102.8743,  Loss: -5.4459
+[2026-06-22 18:31:28] EVRPTWTrainer.py(145) : Epoch   1: Train  96/2000(4.8%)  Score: 98.2450,  Loss: -4.6909
+[2026-06-22 18:31:29] EVRPTWTrainer.py(145) : Epoch   1: Train 120/2000(6.0%)  Score: 101.0360,  Loss: -3.2526
+[2026-06-22 18:31:31] EVRPTWTrainer.py(145) : Epoch   1: Train 144/2000(7.2%)  Score: 98.9888,  Loss: -3.3796
+[2026-06-22 18:31:32] EVRPTWTrainer.py(145) : Epoch   1: Train 168/2000(8.4%)  Score: 97.7105,  Loss: -3.4660
+[2026-06-22 18:31:33] EVRPTWTrainer.py(145) : Epoch   1: Train 192/2000(9.6%)  Score: 95.4777,  Loss: -3.5381
+[2026-06-22 18:31:34] EVRPTWTrainer.py(145) : Epoch   1: Train 216/2000(10.8%)  Score: 94.0470,  Loss: -3.9968
+[2026-06-22 18:31:35] EVRPTWTrainer.py(145) : Epoch   1: Train 240/2000(12.0%)  Score: 92.5770,  Loss: -3.8569
+[2026-06-22 18:32:24] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:33:19] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:33:25] EVRPTWTrainer.py(149) : Epoch   1: Train (100%)  Score: 69.0270,  Loss: -1.8077
+[2026-06-22 18:33:25] EVRPTWTrainer.py(82) : Epoch   1/320: Time Est.: Elapsed[2.04m], Remain[10.86h]
+[2026-06-22 18:33:25] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:33:25] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:34:38] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:35:51] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:35:55] EVRPTWTrainer.py(149) : Epoch   2: Train (100%)  Score: 47.1242,  Loss: -5.0640
+[2026-06-22 18:35:55] EVRPTWTrainer.py(82) : Epoch   2/320: Time Est.: Elapsed[4.55m], Remain[12.05h]
+[2026-06-22 18:35:55] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:35:56] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:35:56] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:36:43] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:37:27] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:37:32] EVRPTWTrainer.py(149) : Epoch   3: Train (100%)  Score: 43.2345,  Loss: -8.6625
+[2026-06-22 18:37:32] EVRPTWTrainer.py(82) : Epoch   3/320: Time Est.: Elapsed[6.15m], Remain[10.84h]
+[2026-06-22 18:37:32] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:37:32] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:37:32] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:38:17] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:39:01] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:39:05] EVRPTWTrainer.py(149) : Epoch   4: Train (100%)  Score: 42.9969,  Loss: -4.8916
+[2026-06-22 18:39:05] EVRPTWTrainer.py(82) : Epoch   4/320: Time Est.: Elapsed[7.71m], Remain[10.15h]
+[2026-06-22 18:39:05] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:39:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:39:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:39:49] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:40:32] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:40:36] EVRPTWTrainer.py(149) : Epoch   5: Train (100%)  Score: 44.9188,  Loss: -8.0732
+[2026-06-22 18:40:36] EVRPTWTrainer.py(82) : Epoch   5/320: Time Est.: Elapsed[9.23m], Remain[9.69h]
+[2026-06-22 18:40:36] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:40:36] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:40:36] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:41:20] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:42:04] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:42:08] EVRPTWTrainer.py(149) : Epoch   6: Train (100%)  Score: 43.5955,  Loss: -4.3810
+[2026-06-22 18:42:08] EVRPTWTrainer.py(82) : Epoch   6/320: Time Est.: Elapsed[10.76m], Remain[9.38h]
+[2026-06-22 18:42:08] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:42:08] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:42:08] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:42:50] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:43:34] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:43:38] EVRPTWTrainer.py(149) : Epoch   7: Train (100%)  Score: 43.5028,  Loss: -5.7518
+[2026-06-22 18:43:38] EVRPTWTrainer.py(82) : Epoch   7/320: Time Est.: Elapsed[12.26m], Remain[9.14h]
+[2026-06-22 18:43:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:43:38] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:43:38] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:44:22] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:45:06] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:45:11] EVRPTWTrainer.py(149) : Epoch   8: Train (100%)  Score: 43.0745,  Loss: -5.3878
+[2026-06-22 18:45:11] EVRPTWTrainer.py(82) : Epoch   8/320: Time Est.: Elapsed[13.80m], Remain[8.97h]
+[2026-06-22 18:45:11] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:45:11] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:45:11] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:45:55] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:46:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:46:43] EVRPTWTrainer.py(149) : Epoch   9: Train (100%)  Score: 43.9817,  Loss: -6.2954
+[2026-06-22 18:46:43] EVRPTWTrainer.py(82) : Epoch   9/320: Time Est.: Elapsed[15.34m], Remain[8.83h]
+[2026-06-22 18:46:43] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:46:43] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:46:43] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:47:27] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:48:11] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:48:15] EVRPTWTrainer.py(149) : Epoch  10: Train (100%)  Score: 43.7530,  Loss: -4.8961
+[2026-06-22 18:48:15] EVRPTWTrainer.py(82) : Epoch  10/320: Time Est.: Elapsed[16.88m], Remain[8.72h]
+[2026-06-22 18:48:15] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:48:15] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:48:15] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:49:00] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:50:05] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:50:11] EVRPTWTrainer.py(149) : Epoch  11: Train (100%)  Score: 44.1986,  Loss: -4.7616
+[2026-06-22 18:50:11] EVRPTWTrainer.py(82) : Epoch  11/320: Time Est.: Elapsed[18.81m], Remain[8.81h]
+[2026-06-22 18:50:11] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:50:11] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:50:11] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:51:19] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:52:29] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:52:36] EVRPTWTrainer.py(149) : Epoch  12: Train (100%)  Score: 42.8947,  Loss: -7.7677
+[2026-06-22 18:52:36] EVRPTWTrainer.py(82) : Epoch  12/320: Time Est.: Elapsed[21.22m], Remain[9.08h]
+[2026-06-22 18:52:36] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:52:36] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:52:36] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:53:45] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:54:55] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:55:02] EVRPTWTrainer.py(149) : Epoch  13: Train (100%)  Score: 42.3878,  Loss: -7.7693
+[2026-06-22 18:55:02] EVRPTWTrainer.py(82) : Epoch  13/320: Time Est.: Elapsed[23.65m], Remain[9.31h]
+[2026-06-22 18:55:02] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:55:02] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:55:02] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:56:11] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:57:19] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:57:26] EVRPTWTrainer.py(149) : Epoch  14: Train (100%)  Score: 43.5828,  Loss: -5.7427
+[2026-06-22 18:57:26] EVRPTWTrainer.py(82) : Epoch  14/320: Time Est.: Elapsed[26.06m], Remain[9.49h]
+[2026-06-22 18:57:26] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:57:27] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:57:27] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 18:58:36] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 18:59:46] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 18:59:53] EVRPTWTrainer.py(149) : Epoch  15: Train (100%)  Score: 42.7509,  Loss: -6.6610
+[2026-06-22 18:59:53] EVRPTWTrainer.py(82) : Epoch  15/320: Time Est.: Elapsed[28.51m], Remain[9.66h]
+[2026-06-22 18:59:53] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 18:59:54] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 18:59:54] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:01:04] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:02:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:02:20] EVRPTWTrainer.py(149) : Epoch  16: Train (100%)  Score: 42.3804,  Loss: -6.4249
+[2026-06-22 19:02:20] EVRPTWTrainer.py(82) : Epoch  16/320: Time Est.: Elapsed[30.95m], Remain[9.80h]
+[2026-06-22 19:02:20] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:02:20] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:02:20] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:03:29] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:04:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:04:46] EVRPTWTrainer.py(149) : Epoch  17: Train (100%)  Score: 41.8848,  Loss: -10.4592
+[2026-06-22 19:04:46] EVRPTWTrainer.py(82) : Epoch  17/320: Time Est.: Elapsed[33.39m], Remain[9.92h]
+[2026-06-22 19:04:46] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:04:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:04:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:05:55] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:07:04] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:07:11] EVRPTWTrainer.py(149) : Epoch  18: Train (100%)  Score: 41.0714,  Loss: -10.3321
+[2026-06-22 19:07:11] EVRPTWTrainer.py(82) : Epoch  18/320: Time Est.: Elapsed[35.81m], Remain[10.01h]
+[2026-06-22 19:07:11] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:07:12] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:07:12] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:08:21] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:09:31] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:09:38] EVRPTWTrainer.py(149) : Epoch  19: Train (100%)  Score: 38.8521,  Loss: -7.7501
+[2026-06-22 19:09:38] EVRPTWTrainer.py(82) : Epoch  19/320: Time Est.: Elapsed[38.25m], Remain[10.10h]
+[2026-06-22 19:09:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:09:38] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:09:38] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:10:48] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:11:57] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:12:03] EVRPTWTrainer.py(149) : Epoch  20: Train (100%)  Score: 38.7188,  Loss: -9.9460
+[2026-06-22 19:12:03] EVRPTWTrainer.py(82) : Epoch  20/320: Time Est.: Elapsed[40.68m], Remain[10.17h]
+[2026-06-22 19:12:03] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:12:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:12:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:13:12] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:14:21] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:14:28] EVRPTWTrainer.py(149) : Epoch  21: Train (100%)  Score: 38.1140,  Loss: -7.6845
+[2026-06-22 19:14:28] EVRPTWTrainer.py(82) : Epoch  21/320: Time Est.: Elapsed[43.09m], Remain[10.22h]
+[2026-06-22 19:14:28] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:14:28] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:14:28] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:15:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:16:47] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:16:54] EVRPTWTrainer.py(149) : Epoch  22: Train (100%)  Score: 38.0743,  Loss: -9.5291
+[2026-06-22 19:16:54] EVRPTWTrainer.py(82) : Epoch  22/320: Time Est.: Elapsed[45.52m], Remain[10.28h]
+[2026-06-22 19:16:54] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:16:54] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:16:54] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:18:04] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:19:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:19:20] EVRPTWTrainer.py(149) : Epoch  23: Train (100%)  Score: 37.3107,  Loss: -4.6507
+[2026-06-22 19:19:20] EVRPTWTrainer.py(82) : Epoch  23/320: Time Est.: Elapsed[47.95m], Remain[10.32h]
+[2026-06-22 19:19:20] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:19:20] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:19:20] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:20:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:21:38] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:21:45] EVRPTWTrainer.py(149) : Epoch  24: Train (100%)  Score: 36.2058,  Loss: -6.6778
+[2026-06-22 19:21:45] EVRPTWTrainer.py(82) : Epoch  24/320: Time Est.: Elapsed[50.38m], Remain[10.36h]
+[2026-06-22 19:21:45] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:21:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:21:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:22:56] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:24:05] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:24:12] EVRPTWTrainer.py(149) : Epoch  25: Train (100%)  Score: 36.3945,  Loss: -9.1326
+[2026-06-22 19:24:12] EVRPTWTrainer.py(82) : Epoch  25/320: Time Est.: Elapsed[52.83m], Remain[10.39h]
+[2026-06-22 19:24:12] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:24:13] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:24:13] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:25:23] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:26:31] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:26:38] EVRPTWTrainer.py(149) : Epoch  26: Train (100%)  Score: 36.5970,  Loss: -8.0966
+[2026-06-22 19:26:38] EVRPTWTrainer.py(82) : Epoch  26/320: Time Est.: Elapsed[55.26m], Remain[10.41h]
+[2026-06-22 19:26:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:26:39] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:26:39] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:27:48] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:28:57] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:29:04] EVRPTWTrainer.py(149) : Epoch  27: Train (100%)  Score: 37.2165,  Loss: -5.0390
+[2026-06-22 19:29:04] EVRPTWTrainer.py(82) : Epoch  27/320: Time Est.: Elapsed[57.68m], Remain[10.43h]
+[2026-06-22 19:29:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:29:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:29:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:30:13] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:31:23] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:31:30] EVRPTWTrainer.py(149) : Epoch  28: Train (100%)  Score: 35.7491,  Loss: -7.1255
+[2026-06-22 19:31:30] EVRPTWTrainer.py(82) : Epoch  28/320: Time Est.: Elapsed[1.00h], Remain[10.45h]
+[2026-06-22 19:31:30] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:31:30] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:31:30] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:32:39] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:33:49] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:33:56] EVRPTWTrainer.py(149) : Epoch  29: Train (100%)  Score: 36.5577,  Loss: -7.4389
+[2026-06-22 19:33:56] EVRPTWTrainer.py(82) : Epoch  29/320: Time Est.: Elapsed[1.04h], Remain[10.46h]
+[2026-06-22 19:33:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:33:56] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:33:56] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:35:06] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:36:15] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:36:22] EVRPTWTrainer.py(149) : Epoch  30: Train (100%)  Score: 35.3568,  Loss: -5.2706
+[2026-06-22 19:36:22] EVRPTWTrainer.py(82) : Epoch  30/320: Time Est.: Elapsed[1.08h], Remain[10.47h]
+[2026-06-22 19:36:22] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:36:22] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:36:22] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:37:31] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:38:40] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:38:47] EVRPTWTrainer.py(149) : Epoch  31: Train (100%)  Score: 35.5125,  Loss: -9.4912
+[2026-06-22 19:38:47] EVRPTWTrainer.py(82) : Epoch  31/320: Time Est.: Elapsed[1.12h], Remain[10.47h]
+[2026-06-22 19:38:47] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:38:48] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:38:48] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:39:57] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:41:07] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:41:14] EVRPTWTrainer.py(149) : Epoch  32: Train (100%)  Score: 36.1128,  Loss: -5.8843
+[2026-06-22 19:41:14] EVRPTWTrainer.py(82) : Epoch  32/320: Time Est.: Elapsed[1.16h], Remain[10.48h]
+[2026-06-22 19:41:14] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:41:15] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:41:15] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:42:25] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:43:14] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:43:18] EVRPTWTrainer.py(149) : Epoch  33: Train (100%)  Score: 35.4627,  Loss: -9.0784
+[2026-06-22 19:43:18] EVRPTWTrainer.py(82) : Epoch  33/320: Time Est.: Elapsed[1.20h], Remain[10.42h]
+[2026-06-22 19:43:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:43:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:43:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:44:28] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:45:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:45:16] EVRPTWTrainer.py(149) : Epoch  34: Train (100%)  Score: 35.0484,  Loss: -8.5011
+[2026-06-22 19:45:16] EVRPTWTrainer.py(82) : Epoch  34/320: Time Est.: Elapsed[1.23h], Remain[10.36h]
+[2026-06-22 19:45:16] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:45:16] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:45:16] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:46:28] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:47:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:47:47] EVRPTWTrainer.py(149) : Epoch  35: Train (100%)  Score: 35.8438,  Loss: -8.6627
+[2026-06-22 19:47:47] EVRPTWTrainer.py(82) : Epoch  35/320: Time Est.: Elapsed[1.27h], Remain[10.37h]
+[2026-06-22 19:47:47] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:47:47] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:47:47] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:49:01] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:49:48] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:49:52] EVRPTWTrainer.py(149) : Epoch  36: Train (100%)  Score: 35.6180,  Loss: -7.7872
+[2026-06-22 19:49:52] EVRPTWTrainer.py(82) : Epoch  36/320: Time Est.: Elapsed[1.31h], Remain[10.32h]
+[2026-06-22 19:49:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:49:53] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:49:53] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:50:36] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:51:20] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:51:24] EVRPTWTrainer.py(149) : Epoch  37: Train (100%)  Score: 35.3570,  Loss: -8.6632
+[2026-06-22 19:51:24] EVRPTWTrainer.py(82) : Epoch  37/320: Time Est.: Elapsed[1.33h], Remain[10.20h]
+[2026-06-22 19:51:24] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:51:24] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:51:24] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:52:10] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:52:54] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:52:58] EVRPTWTrainer.py(149) : Epoch  38: Train (100%)  Score: 34.8481,  Loss: -8.5656
+[2026-06-22 19:52:58] EVRPTWTrainer.py(82) : Epoch  38/320: Time Est.: Elapsed[1.36h], Remain[10.09h]
+[2026-06-22 19:52:58] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:52:58] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:52:58] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:53:42] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:54:26] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:54:30] EVRPTWTrainer.py(149) : Epoch  39: Train (100%)  Score: 35.8217,  Loss: -9.6105
+[2026-06-22 19:54:30] EVRPTWTrainer.py(82) : Epoch  39/320: Time Est.: Elapsed[1.39h], Remain[9.98h]
+[2026-06-22 19:54:30] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:54:31] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:54:31] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:55:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:56:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:56:04] EVRPTWTrainer.py(149) : Epoch  40: Train (100%)  Score: 35.9346,  Loss: -7.9096
+[2026-06-22 19:56:04] EVRPTWTrainer.py(82) : Epoch  40/320: Time Est.: Elapsed[1.41h], Remain[9.88h]
+[2026-06-22 19:56:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:56:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:56:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:56:48] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:57:32] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:57:36] EVRPTWTrainer.py(149) : Epoch  41: Train (100%)  Score: 35.1514,  Loss: -9.0314
+[2026-06-22 19:57:36] EVRPTWTrainer.py(82) : Epoch  41/320: Time Est.: Elapsed[1.44h], Remain[9.78h]
+[2026-06-22 19:57:36] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:57:37] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:57:37] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:58:21] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 19:59:05] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 19:59:09] EVRPTWTrainer.py(149) : Epoch  42: Train (100%)  Score: 35.3125,  Loss: -9.5299
+[2026-06-22 19:59:09] EVRPTWTrainer.py(82) : Epoch  42/320: Time Est.: Elapsed[1.46h], Remain[9.68h]
+[2026-06-22 19:59:09] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 19:59:09] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 19:59:09] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 19:59:53] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:00:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:00:40] EVRPTWTrainer.py(149) : Epoch  43: Train (100%)  Score: 34.5556,  Loss: -10.9526
+[2026-06-22 20:00:40] EVRPTWTrainer.py(82) : Epoch  43/320: Time Est.: Elapsed[1.49h], Remain[9.59h]
+[2026-06-22 20:00:40] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:00:41] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:00:41] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:01:25] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:02:09] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:02:13] EVRPTWTrainer.py(149) : Epoch  44: Train (100%)  Score: 35.0428,  Loss: -10.5868
+[2026-06-22 20:02:13] EVRPTWTrainer.py(82) : Epoch  44/320: Time Est.: Elapsed[1.51h], Remain[9.50h]
+[2026-06-22 20:02:13] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:02:14] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:02:14] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:02:58] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:03:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:03:47] EVRPTWTrainer.py(149) : Epoch  45: Train (100%)  Score: 36.0296,  Loss: -8.9285
+[2026-06-22 20:03:47] EVRPTWTrainer.py(82) : Epoch  45/320: Time Est.: Elapsed[1.54h], Remain[9.41h]
+[2026-06-22 20:03:47] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:03:47] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:03:47] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:04:31] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:05:15] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:05:20] EVRPTWTrainer.py(149) : Epoch  46: Train (100%)  Score: 34.8099,  Loss: -10.6365
+[2026-06-22 20:05:20] EVRPTWTrainer.py(82) : Epoch  46/320: Time Est.: Elapsed[1.57h], Remain[9.33h]
+[2026-06-22 20:05:20] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:05:20] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:05:20] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:06:04] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:06:48] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:06:52] EVRPTWTrainer.py(149) : Epoch  47: Train (100%)  Score: 35.4858,  Loss: -9.8263
+[2026-06-22 20:06:52] EVRPTWTrainer.py(82) : Epoch  47/320: Time Est.: Elapsed[1.59h], Remain[9.24h]
+[2026-06-22 20:06:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:06:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:06:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:07:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:08:23] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:08:27] EVRPTWTrainer.py(149) : Epoch  48: Train (100%)  Score: 34.5890,  Loss: -9.3685
+[2026-06-22 20:08:27] EVRPTWTrainer.py(82) : Epoch  48/320: Time Est.: Elapsed[1.62h], Remain[9.17h]
+[2026-06-22 20:08:27] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:08:28] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:08:28] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:09:14] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:10:18] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:10:25] EVRPTWTrainer.py(149) : Epoch  49: Train (100%)  Score: 35.0998,  Loss: -10.9286
+[2026-06-22 20:10:25] EVRPTWTrainer.py(82) : Epoch  49/320: Time Est.: Elapsed[1.65h], Remain[9.13h]
+[2026-06-22 20:10:25] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:10:25] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:10:25] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:11:28] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:12:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:12:17] EVRPTWTrainer.py(149) : Epoch  50: Train (100%)  Score: 35.5194,  Loss: -8.5000
+[2026-06-22 20:12:17] EVRPTWTrainer.py(82) : Epoch  50/320: Time Est.: Elapsed[1.68h], Remain[9.08h]
+[2026-06-22 20:12:17] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:12:17] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:12:17] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:13:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:13:47] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:13:51] EVRPTWTrainer.py(149) : Epoch  51: Train (100%)  Score: 34.4249,  Loss: -8.3297
+[2026-06-22 20:13:51] EVRPTWTrainer.py(82) : Epoch  51/320: Time Est.: Elapsed[1.71h], Remain[9.01h]
+[2026-06-22 20:13:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:13:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:13:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:14:35] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:15:18] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:15:23] EVRPTWTrainer.py(149) : Epoch  52: Train (100%)  Score: 35.1345,  Loss: -8.6363
+[2026-06-22 20:15:23] EVRPTWTrainer.py(82) : Epoch  52/320: Time Est.: Elapsed[1.73h], Remain[8.93h]
+[2026-06-22 20:15:23] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:15:23] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:15:23] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:16:08] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:16:52] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:16:56] EVRPTWTrainer.py(149) : Epoch  53: Train (100%)  Score: 34.7685,  Loss: -6.5425
+[2026-06-22 20:16:56] EVRPTWTrainer.py(82) : Epoch  53/320: Time Est.: Elapsed[1.76h], Remain[8.86h]
+[2026-06-22 20:16:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:16:56] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:16:56] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:17:40] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:18:51] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:18:59] EVRPTWTrainer.py(149) : Epoch  54: Train (100%)  Score: 35.4302,  Loss: -9.3736
+[2026-06-22 20:18:59] EVRPTWTrainer.py(82) : Epoch  54/320: Time Est.: Elapsed[1.79h], Remain[8.83h]
+[2026-06-22 20:18:59] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:18:59] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:18:59] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:20:14] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:21:25] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:21:31] EVRPTWTrainer.py(149) : Epoch  55: Train (100%)  Score: 34.8963,  Loss: -9.7584
+[2026-06-22 20:21:31] EVRPTWTrainer.py(82) : Epoch  55/320: Time Est.: Elapsed[1.84h], Remain[8.85h]
+[2026-06-22 20:21:31] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:21:32] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:21:32] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:22:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:22:58] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:23:02] EVRPTWTrainer.py(149) : Epoch  56: Train (100%)  Score: 35.3358,  Loss: -10.4618
+[2026-06-22 20:23:02] EVRPTWTrainer.py(82) : Epoch  56/320: Time Est.: Elapsed[1.86h], Remain[8.77h]
+[2026-06-22 20:23:02] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:23:02] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:23:02] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:24:49] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:25:58] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:26:02] EVRPTWTrainer.py(149) : Epoch  57: Train (100%)  Score: 35.0061,  Loss: -8.9219
+[2026-06-22 20:26:02] EVRPTWTrainer.py(82) : Epoch  57/320: Time Est.: Elapsed[1.91h], Remain[8.82h]
+[2026-06-22 20:26:02] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:26:03] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:26:03] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:26:49] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:27:43] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:27:52] EVRPTWTrainer.py(149) : Epoch  58: Train (100%)  Score: 34.4368,  Loss: -8.1760
+[2026-06-22 20:27:52] EVRPTWTrainer.py(82) : Epoch  58/320: Time Est.: Elapsed[1.94h], Remain[8.77h]
+[2026-06-22 20:27:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:27:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:27:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:28:40] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:29:22] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:29:27] EVRPTWTrainer.py(149) : Epoch  59: Train (100%)  Score: 34.7085,  Loss: -8.9826
+[2026-06-22 20:29:27] EVRPTWTrainer.py(82) : Epoch  59/320: Time Est.: Elapsed[1.97h], Remain[8.70h]
+[2026-06-22 20:29:27] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:29:27] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:29:27] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:30:09] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:30:58] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:31:07] EVRPTWTrainer.py(149) : Epoch  60: Train (100%)  Score: 34.7515,  Loss: -9.4076
+[2026-06-22 20:31:07] EVRPTWTrainer.py(82) : Epoch  60/320: Time Est.: Elapsed[2.00h], Remain[8.65h]
+[2026-06-22 20:31:07] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:31:07] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:31:07] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:32:23] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:33:24] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:33:28] EVRPTWTrainer.py(149) : Epoch  61: Train (100%)  Score: 35.0805,  Loss: -9.4052
+[2026-06-22 20:33:28] EVRPTWTrainer.py(82) : Epoch  61/320: Time Est.: Elapsed[2.03h], Remain[8.64h]
+[2026-06-22 20:33:28] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:33:28] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:33:28] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:34:28] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:35:38] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:35:44] EVRPTWTrainer.py(149) : Epoch  62: Train (100%)  Score: 34.4510,  Loss: -9.1871
+[2026-06-22 20:35:44] EVRPTWTrainer.py(82) : Epoch  62/320: Time Est.: Elapsed[2.07h], Remain[8.63h]
+[2026-06-22 20:35:44] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:35:44] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:35:44] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:37:05] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:38:27] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:38:35] EVRPTWTrainer.py(149) : Epoch  63: Train (100%)  Score: 34.7279,  Loss: -7.6373
+[2026-06-22 20:38:35] EVRPTWTrainer.py(82) : Epoch  63/320: Time Est.: Elapsed[2.12h], Remain[8.65h]
+[2026-06-22 20:38:35] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:38:35] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:38:35] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:39:56] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:41:20] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:41:28] EVRPTWTrainer.py(149) : Epoch  64: Train (100%)  Score: 34.9062,  Loss: -8.3489
+[2026-06-22 20:41:28] EVRPTWTrainer.py(82) : Epoch  64/320: Time Est.: Elapsed[2.17h], Remain[8.67h]
+[2026-06-22 20:41:28] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:41:29] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:41:29] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:42:56] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:44:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:44:19] EVRPTWTrainer.py(149) : Epoch  65: Train (100%)  Score: 34.7505,  Loss: -8.6853
+[2026-06-22 20:44:19] EVRPTWTrainer.py(82) : Epoch  65/320: Time Est.: Elapsed[2.22h], Remain[8.69h]
+[2026-06-22 20:44:19] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:44:19] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:44:19] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:45:27] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:46:40] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:46:48] EVRPTWTrainer.py(149) : Epoch  66: Train (100%)  Score: 34.2010,  Loss: -7.9591
+[2026-06-22 20:46:48] EVRPTWTrainer.py(82) : Epoch  66/320: Time Est.: Elapsed[2.26h], Remain[8.69h]
+[2026-06-22 20:46:48] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:46:48] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:46:48] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:48:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:49:29] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:49:38] EVRPTWTrainer.py(149) : Epoch  67: Train (100%)  Score: 34.6602,  Loss: -8.0130
+[2026-06-22 20:49:38] EVRPTWTrainer.py(82) : Epoch  67/320: Time Est.: Elapsed[2.30h], Remain[8.70h]
+[2026-06-22 20:49:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:49:39] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:49:39] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:51:12] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:52:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:52:50] EVRPTWTrainer.py(149) : Epoch  68: Train (100%)  Score: 35.2145,  Loss: -6.3503
+[2026-06-22 20:52:50] EVRPTWTrainer.py(82) : Epoch  68/320: Time Est.: Elapsed[2.36h], Remain[8.74h]
+[2026-06-22 20:52:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:52:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:52:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:54:11] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:55:40] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:55:49] EVRPTWTrainer.py(149) : Epoch  69: Train (100%)  Score: 35.0226,  Loss: -7.2011
+[2026-06-22 20:55:49] EVRPTWTrainer.py(82) : Epoch  69/320: Time Est.: Elapsed[2.41h], Remain[8.76h]
+[2026-06-22 20:55:49] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:55:49] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:55:49] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 20:57:17] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 20:58:41] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 20:58:50] EVRPTWTrainer.py(149) : Epoch  70: Train (100%)  Score: 34.0377,  Loss: -8.1753
+[2026-06-22 20:58:50] EVRPTWTrainer.py(82) : Epoch  70/320: Time Est.: Elapsed[2.46h], Remain[8.78h]
+[2026-06-22 20:58:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 20:58:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 20:58:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:00:20] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:01:49] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:01:58] EVRPTWTrainer.py(149) : Epoch  71: Train (100%)  Score: 34.3893,  Loss: -6.8915
+[2026-06-22 21:01:58] EVRPTWTrainer.py(82) : Epoch  71/320: Time Est.: Elapsed[2.51h], Remain[8.80h]
+[2026-06-22 21:01:58] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:01:58] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:01:58] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:03:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:04:28] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:04:36] EVRPTWTrainer.py(149) : Epoch  72: Train (100%)  Score: 34.1371,  Loss: -7.1533
+[2026-06-22 21:04:36] EVRPTWTrainer.py(82) : Epoch  72/320: Time Est.: Elapsed[2.55h], Remain[8.80h]
+[2026-06-22 21:04:36] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:04:36] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:04:36] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:05:47] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:07:03] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:07:11] EVRPTWTrainer.py(149) : Epoch  73: Train (100%)  Score: 34.5542,  Loss: -6.2843
+[2026-06-22 21:07:11] EVRPTWTrainer.py(82) : Epoch  73/320: Time Est.: Elapsed[2.60h], Remain[8.79h]
+[2026-06-22 21:07:11] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:07:12] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:07:12] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:08:29] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:09:55] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:10:04] EVRPTWTrainer.py(149) : Epoch  74: Train (100%)  Score: 34.6841,  Loss: -5.4262
+[2026-06-22 21:10:04] EVRPTWTrainer.py(82) : Epoch  74/320: Time Est.: Elapsed[2.64h], Remain[8.79h]
+[2026-06-22 21:10:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:10:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:10:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:11:34] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:13:01] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:13:10] EVRPTWTrainer.py(149) : Epoch  75: Train (100%)  Score: 35.2307,  Loss: -5.5096
+[2026-06-22 21:13:10] EVRPTWTrainer.py(82) : Epoch  75/320: Time Est.: Elapsed[2.70h], Remain[8.81h]
+[2026-06-22 21:13:10] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:13:11] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:13:11] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:14:32] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:15:44] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:15:51] EVRPTWTrainer.py(149) : Epoch  76: Train (100%)  Score: 34.9912,  Loss: -5.2719
+[2026-06-22 21:15:51] EVRPTWTrainer.py(82) : Epoch  76/320: Time Est.: Elapsed[2.74h], Remain[8.80h]
+[2026-06-22 21:15:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:15:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:15:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:17:17] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:18:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:18:47] EVRPTWTrainer.py(149) : Epoch  77: Train (100%)  Score: 34.5531,  Loss: -5.9726
+[2026-06-22 21:18:47] EVRPTWTrainer.py(82) : Epoch  77/320: Time Est.: Elapsed[2.79h], Remain[8.81h]
+[2026-06-22 21:18:47] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:18:48] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:18:48] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:20:12] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:21:37] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:21:46] EVRPTWTrainer.py(149) : Epoch  78: Train (100%)  Score: 34.9072,  Loss: -5.2009
+[2026-06-22 21:21:46] EVRPTWTrainer.py(82) : Epoch  78/320: Time Est.: Elapsed[2.84h], Remain[8.81h]
+[2026-06-22 21:21:46] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:21:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:21:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:23:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:24:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:24:50] EVRPTWTrainer.py(149) : Epoch  79: Train (100%)  Score: 34.0482,  Loss: -5.0086
+[2026-06-22 21:24:50] EVRPTWTrainer.py(82) : Epoch  79/320: Time Est.: Elapsed[2.89h], Remain[8.82h]
+[2026-06-22 21:24:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:24:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:24:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:26:13] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:27:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:27:45] EVRPTWTrainer.py(149) : Epoch  80: Train (100%)  Score: 34.2891,  Loss: -4.6710
+[2026-06-22 21:27:45] EVRPTWTrainer.py(82) : Epoch  80/320: Time Est.: Elapsed[2.94h], Remain[8.82h]
+[2026-06-22 21:27:45] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:27:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:27:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:29:09] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:30:24] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:30:32] EVRPTWTrainer.py(149) : Epoch  81: Train (100%)  Score: 34.5545,  Loss: -3.9937
+[2026-06-22 21:30:32] EVRPTWTrainer.py(82) : Epoch  81/320: Time Est.: Elapsed[2.99h], Remain[8.81h]
+[2026-06-22 21:30:32] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:30:32] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:30:32] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:31:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:33:20] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:33:29] EVRPTWTrainer.py(149) : Epoch  82: Train (100%)  Score: 35.1631,  Loss: -4.9792
+[2026-06-22 21:33:29] EVRPTWTrainer.py(82) : Epoch  82/320: Time Est.: Elapsed[3.04h], Remain[8.81h]
+[2026-06-22 21:33:29] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:33:29] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:33:29] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:34:57] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:36:24] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:36:32] EVRPTWTrainer.py(149) : Epoch  83: Train (100%)  Score: 34.8246,  Loss: -4.8173
+[2026-06-22 21:36:32] EVRPTWTrainer.py(82) : Epoch  83/320: Time Est.: Elapsed[3.09h], Remain[8.81h]
+[2026-06-22 21:36:32] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:36:33] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:36:33] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:37:58] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:39:25] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:39:34] EVRPTWTrainer.py(149) : Epoch  84: Train (100%)  Score: 33.5949,  Loss: -4.8584
+[2026-06-22 21:39:34] EVRPTWTrainer.py(82) : Epoch  84/320: Time Est.: Elapsed[3.14h], Remain[8.81h]
+[2026-06-22 21:39:34] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:39:35] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:39:35] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:41:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:42:29] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:42:37] EVRPTWTrainer.py(149) : Epoch  85: Train (100%)  Score: 34.1934,  Loss: -4.1816
+[2026-06-22 21:42:37] EVRPTWTrainer.py(82) : Epoch  85/320: Time Est.: Elapsed[3.19h], Remain[8.81h]
+[2026-06-22 21:42:37] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:42:37] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:42:37] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:43:55] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:45:18] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:45:26] EVRPTWTrainer.py(149) : Epoch  86: Train (100%)  Score: 34.2688,  Loss: -4.3523
+[2026-06-22 21:45:26] EVRPTWTrainer.py(82) : Epoch  86/320: Time Est.: Elapsed[3.23h], Remain[8.80h]
+[2026-06-22 21:45:26] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:45:27] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:45:27] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:46:43] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:47:56] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:48:04] EVRPTWTrainer.py(149) : Epoch  87: Train (100%)  Score: 33.8045,  Loss: -4.9927
+[2026-06-22 21:48:04] EVRPTWTrainer.py(82) : Epoch  87/320: Time Est.: Elapsed[3.28h], Remain[8.78h]
+[2026-06-22 21:48:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:48:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:48:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:49:12] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:50:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:50:44] EVRPTWTrainer.py(149) : Epoch  88: Train (100%)  Score: 35.0963,  Loss: -3.6730
+[2026-06-22 21:50:44] EVRPTWTrainer.py(82) : Epoch  88/320: Time Est.: Elapsed[3.32h], Remain[8.76h]
+[2026-06-22 21:50:44] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:50:45] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:50:45] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:52:14] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:53:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:53:50] EVRPTWTrainer.py(149) : Epoch  89: Train (100%)  Score: 35.0290,  Loss: -4.5787
+[2026-06-22 21:53:50] EVRPTWTrainer.py(82) : Epoch  89/320: Time Est.: Elapsed[3.37h], Remain[8.76h]
+[2026-06-22 21:53:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:53:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:53:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 21:56:03] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 21:58:06] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 21:58:17] EVRPTWTrainer.py(149) : Epoch  90: Train (100%)  Score: 35.1551,  Loss: -3.8710
+[2026-06-22 21:58:17] EVRPTWTrainer.py(82) : Epoch  90/320: Time Est.: Elapsed[3.45h], Remain[8.81h]
+[2026-06-22 21:58:17] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 21:58:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 21:58:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:00:25] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:02:33] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:02:45] EVRPTWTrainer.py(149) : Epoch  91: Train (100%)  Score: 34.6790,  Loss: -3.7760
+[2026-06-22 22:02:45] EVRPTWTrainer.py(82) : Epoch  91/320: Time Est.: Elapsed[3.52h], Remain[8.87h]
+[2026-06-22 22:02:45] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:02:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:02:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:04:54] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:06:49] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:07:01] EVRPTWTrainer.py(149) : Epoch  92: Train (100%)  Score: 34.8745,  Loss: -4.2466
+[2026-06-22 22:07:01] EVRPTWTrainer.py(82) : Epoch  92/320: Time Est.: Elapsed[3.59h], Remain[8.91h]
+[2026-06-22 22:07:01] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:07:02] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:07:02] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:08:54] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:11:09] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:11:23] EVRPTWTrainer.py(149) : Epoch  93: Train (100%)  Score: 34.2467,  Loss: -4.0688
+[2026-06-22 22:11:23] EVRPTWTrainer.py(82) : Epoch  93/320: Time Est.: Elapsed[3.67h], Remain[8.95h]
+[2026-06-22 22:11:23] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:11:23] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:11:23] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:13:45] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:16:07] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:16:21] EVRPTWTrainer.py(149) : Epoch  94: Train (100%)  Score: 34.6767,  Loss: -3.5389
+[2026-06-22 22:16:21] EVRPTWTrainer.py(82) : Epoch  94/320: Time Est.: Elapsed[3.75h], Remain[9.02h]
+[2026-06-22 22:16:21] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:16:23] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:16:23] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:18:44] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:21:02] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:21:16] EVRPTWTrainer.py(149) : Epoch  95: Train (100%)  Score: 34.2489,  Loss: -3.0921
+[2026-06-22 22:21:16] EVRPTWTrainer.py(82) : Epoch  95/320: Time Est.: Elapsed[3.83h], Remain[9.07h]
+[2026-06-22 22:21:16] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:21:17] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:21:17] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:23:24] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:25:45] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:25:59] EVRPTWTrainer.py(149) : Epoch  96: Train (100%)  Score: 34.1711,  Loss: -3.8428
+[2026-06-22 22:25:59] EVRPTWTrainer.py(82) : Epoch  96/320: Time Est.: Elapsed[3.91h], Remain[9.12h]
+[2026-06-22 22:25:59] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:26:00] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:26:00] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:28:18] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:30:30] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:30:43] EVRPTWTrainer.py(149) : Epoch  97: Train (100%)  Score: 34.2318,  Loss: -3.1037
+[2026-06-22 22:30:43] EVRPTWTrainer.py(82) : Epoch  97/320: Time Est.: Elapsed[3.99h], Remain[9.17h]
+[2026-06-22 22:30:43] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:30:44] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:30:44] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:32:54] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:34:56] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:35:09] EVRPTWTrainer.py(149) : Epoch  98: Train (100%)  Score: 34.8232,  Loss: -3.8093
+[2026-06-22 22:35:09] EVRPTWTrainer.py(82) : Epoch  98/320: Time Est.: Elapsed[4.06h], Remain[9.20h]
+[2026-06-22 22:35:09] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:35:09] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:35:09] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:36:35] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:37:49] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:37:56] EVRPTWTrainer.py(149) : Epoch  99: Train (100%)  Score: 34.1590,  Loss: -3.0202
+[2026-06-22 22:37:56] EVRPTWTrainer.py(82) : Epoch  99/320: Time Est.: Elapsed[4.11h], Remain[9.17h]
+[2026-06-22 22:37:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:37:56] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:37:56] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:39:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:40:33] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:40:41] EVRPTWTrainer.py(149) : Epoch 100: Train (100%)  Score: 33.7686,  Loss: -3.7926
+[2026-06-22 22:40:41] EVRPTWTrainer.py(82) : Epoch 100/320: Time Est.: Elapsed[4.16h], Remain[9.14h]
+[2026-06-22 22:40:41] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:40:41] EVRPTWTrainer.py(98) : Saving trained_model
+[2026-06-22 22:40:42] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:40:42] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:41:57] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:43:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:43:20] EVRPTWTrainer.py(149) : Epoch 101: Train (100%)  Score: 34.4355,  Loss: -3.5140
+[2026-06-22 22:43:20] EVRPTWTrainer.py(82) : Epoch 101/320: Time Est.: Elapsed[4.20h], Remain[9.11h]
+[2026-06-22 22:43:20] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:43:20] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:43:20] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:44:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:45:52] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:46:00] EVRPTWTrainer.py(149) : Epoch 102: Train (100%)  Score: 34.5180,  Loss: -2.9187
+[2026-06-22 22:46:00] EVRPTWTrainer.py(82) : Epoch 102/320: Time Est.: Elapsed[4.24h], Remain[9.07h]
+[2026-06-22 22:46:00] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:46:00] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:46:00] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:46:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:47:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:47:46] EVRPTWTrainer.py(149) : Epoch 103: Train (100%)  Score: 34.8089,  Loss: -3.3648
+[2026-06-22 22:47:46] EVRPTWTrainer.py(82) : Epoch 103/320: Time Est.: Elapsed[4.27h], Remain[9.00h]
+[2026-06-22 22:47:46] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:47:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:47:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:48:36] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:49:26] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:49:30] EVRPTWTrainer.py(149) : Epoch 104: Train (100%)  Score: 34.6206,  Loss: -3.5844
+[2026-06-22 22:49:30] EVRPTWTrainer.py(82) : Epoch 104/320: Time Est.: Elapsed[4.30h], Remain[8.94h]
+[2026-06-22 22:49:30] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:49:31] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:49:31] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:50:18] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:51:02] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:51:06] EVRPTWTrainer.py(149) : Epoch 105: Train (100%)  Score: 34.8254,  Loss: -2.7737
+[2026-06-22 22:51:06] EVRPTWTrainer.py(82) : Epoch 105/320: Time Est.: Elapsed[4.33h], Remain[8.86h]
+[2026-06-22 22:51:06] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:51:07] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:51:07] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:51:50] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:52:35] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:52:39] EVRPTWTrainer.py(149) : Epoch 106: Train (100%)  Score: 34.5655,  Loss: -2.7003
+[2026-06-22 22:52:39] EVRPTWTrainer.py(82) : Epoch 106/320: Time Est.: Elapsed[4.35h], Remain[8.79h]
+[2026-06-22 22:52:39] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:52:39] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:52:39] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:53:24] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:54:09] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:54:13] EVRPTWTrainer.py(149) : Epoch 107: Train (100%)  Score: 34.5517,  Loss: -2.7941
+[2026-06-22 22:54:13] EVRPTWTrainer.py(82) : Epoch 107/320: Time Est.: Elapsed[4.38h], Remain[8.72h]
+[2026-06-22 22:54:13] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:54:13] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:54:13] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:54:57] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:55:41] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:55:46] EVRPTWTrainer.py(149) : Epoch 108: Train (100%)  Score: 33.7760,  Loss: -3.2222
+[2026-06-22 22:55:46] EVRPTWTrainer.py(82) : Epoch 108/320: Time Est.: Elapsed[4.41h], Remain[8.65h]
+[2026-06-22 22:55:46] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:55:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:55:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:56:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:57:14] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:57:18] EVRPTWTrainer.py(149) : Epoch 109: Train (100%)  Score: 33.9696,  Loss: -3.0968
+[2026-06-22 22:57:18] EVRPTWTrainer.py(82) : Epoch 109/320: Time Est.: Elapsed[4.43h], Remain[8.58h]
+[2026-06-22 22:57:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:57:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:57:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:58:03] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 22:58:46] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 22:58:51] EVRPTWTrainer.py(149) : Epoch 110: Train (100%)  Score: 34.1452,  Loss: -2.9239
+[2026-06-22 22:58:51] EVRPTWTrainer.py(82) : Epoch 110/320: Time Est.: Elapsed[4.46h], Remain[8.51h]
+[2026-06-22 22:58:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 22:58:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 22:58:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 22:59:36] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:00:21] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:00:26] EVRPTWTrainer.py(149) : Epoch 111: Train (100%)  Score: 34.1737,  Loss: -2.6219
+[2026-06-22 23:00:26] EVRPTWTrainer.py(82) : Epoch 111/320: Time Est.: Elapsed[4.48h], Remain[8.44h]
+[2026-06-22 23:00:26] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:00:26] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:00:26] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:01:10] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:01:54] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:01:59] EVRPTWTrainer.py(149) : Epoch 112: Train (100%)  Score: 34.0732,  Loss: -3.5270
+[2026-06-22 23:01:59] EVRPTWTrainer.py(82) : Epoch 112/320: Time Est.: Elapsed[4.51h], Remain[8.38h]
+[2026-06-22 23:01:59] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:01:59] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:01:59] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:02:43] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:03:27] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:03:32] EVRPTWTrainer.py(149) : Epoch 113: Train (100%)  Score: 33.8879,  Loss: -2.8672
+[2026-06-22 23:03:32] EVRPTWTrainer.py(82) : Epoch 113/320: Time Est.: Elapsed[4.54h], Remain[8.31h]
+[2026-06-22 23:03:32] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:03:32] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:03:32] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:04:16] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:05:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:05:05] EVRPTWTrainer.py(149) : Epoch 114: Train (100%)  Score: 33.5582,  Loss: -2.5466
+[2026-06-22 23:05:05] EVRPTWTrainer.py(82) : Epoch 114/320: Time Est.: Elapsed[4.56h], Remain[8.24h]
+[2026-06-22 23:05:05] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:05:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:05:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:05:49] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:06:33] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:06:38] EVRPTWTrainer.py(149) : Epoch 115: Train (100%)  Score: 33.9026,  Loss: -2.5259
+[2026-06-22 23:06:38] EVRPTWTrainer.py(82) : Epoch 115/320: Time Est.: Elapsed[4.59h], Remain[8.18h]
+[2026-06-22 23:06:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:06:38] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:06:38] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:07:22] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:08:07] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:08:12] EVRPTWTrainer.py(149) : Epoch 116: Train (100%)  Score: 34.1703,  Loss: -2.7523
+[2026-06-22 23:08:12] EVRPTWTrainer.py(82) : Epoch 116/320: Time Est.: Elapsed[4.61h], Remain[8.11h]
+[2026-06-22 23:08:12] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:08:12] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:08:12] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:08:56] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:09:41] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:09:45] EVRPTWTrainer.py(149) : Epoch 117: Train (100%)  Score: 34.0874,  Loss: -2.7877
+[2026-06-22 23:09:45] EVRPTWTrainer.py(82) : Epoch 117/320: Time Est.: Elapsed[4.64h], Remain[8.05h]
+[2026-06-22 23:09:45] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:09:45] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:09:45] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:10:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:11:14] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:11:18] EVRPTWTrainer.py(149) : Epoch 118: Train (100%)  Score: 34.6319,  Loss: -2.6113
+[2026-06-22 23:11:18] EVRPTWTrainer.py(82) : Epoch 118/320: Time Est.: Elapsed[4.67h], Remain[7.99h]
+[2026-06-22 23:11:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:11:19] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:11:19] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:12:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:12:46] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:12:51] EVRPTWTrainer.py(149) : Epoch 119: Train (100%)  Score: 33.6133,  Loss: -2.6344
+[2026-06-22 23:12:51] EVRPTWTrainer.py(82) : Epoch 119/320: Time Est.: Elapsed[4.69h], Remain[7.92h]
+[2026-06-22 23:12:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:12:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:12:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:13:35] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:14:19] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:14:24] EVRPTWTrainer.py(149) : Epoch 120: Train (100%)  Score: 34.9300,  Loss: -2.4160
+[2026-06-22 23:14:24] EVRPTWTrainer.py(82) : Epoch 120/320: Time Est.: Elapsed[4.72h], Remain[7.86h]
+[2026-06-22 23:14:24] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:14:24] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:14:24] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:15:08] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:15:53] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:15:58] EVRPTWTrainer.py(149) : Epoch 121: Train (100%)  Score: 33.5498,  Loss: -2.3022
+[2026-06-22 23:15:58] EVRPTWTrainer.py(82) : Epoch 121/320: Time Est.: Elapsed[4.74h], Remain[7.80h]
+[2026-06-22 23:15:58] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:15:58] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:15:58] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:16:42] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:17:26] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:17:30] EVRPTWTrainer.py(149) : Epoch 122: Train (100%)  Score: 34.5581,  Loss: -2.5026
+[2026-06-22 23:17:30] EVRPTWTrainer.py(82) : Epoch 122/320: Time Est.: Elapsed[4.77h], Remain[7.74h]
+[2026-06-22 23:17:30] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:17:31] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:17:31] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:18:16] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:19:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:19:04] EVRPTWTrainer.py(149) : Epoch 123: Train (100%)  Score: 33.9638,  Loss: -2.2811
+[2026-06-22 23:19:04] EVRPTWTrainer.py(82) : Epoch 123/320: Time Est.: Elapsed[4.79h], Remain[7.68h]
+[2026-06-22 23:19:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:19:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:19:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:19:48] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:20:32] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:20:36] EVRPTWTrainer.py(149) : Epoch 124: Train (100%)  Score: 34.4189,  Loss: -2.0821
+[2026-06-22 23:20:36] EVRPTWTrainer.py(82) : Epoch 124/320: Time Est.: Elapsed[4.82h], Remain[7.62h]
+[2026-06-22 23:20:36] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:20:36] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:20:36] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:21:22] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:22:06] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:22:11] EVRPTWTrainer.py(149) : Epoch 125: Train (100%)  Score: 33.9434,  Loss: -2.2574
+[2026-06-22 23:22:11] EVRPTWTrainer.py(82) : Epoch 125/320: Time Est.: Elapsed[4.85h], Remain[7.56h]
+[2026-06-22 23:22:11] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:22:11] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:22:11] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:22:54] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:23:41] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:23:45] EVRPTWTrainer.py(149) : Epoch 126: Train (100%)  Score: 34.6801,  Loss: -2.3629
+[2026-06-22 23:23:45] EVRPTWTrainer.py(82) : Epoch 126/320: Time Est.: Elapsed[4.87h], Remain[7.50h]
+[2026-06-22 23:23:45] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:23:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:23:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:24:33] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:25:44] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:25:51] EVRPTWTrainer.py(149) : Epoch 127: Train (100%)  Score: 34.5095,  Loss: -1.7168
+[2026-06-22 23:25:51] EVRPTWTrainer.py(82) : Epoch 127/320: Time Est.: Elapsed[4.91h], Remain[7.46h]
+[2026-06-22 23:25:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:25:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:25:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:27:03] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:28:14] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:28:21] EVRPTWTrainer.py(149) : Epoch 128: Train (100%)  Score: 34.0692,  Loss: -1.9002
+[2026-06-22 23:28:21] EVRPTWTrainer.py(82) : Epoch 128/320: Time Est.: Elapsed[4.95h], Remain[7.42h]
+[2026-06-22 23:28:21] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:28:22] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:28:22] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:29:32] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:30:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:30:50] EVRPTWTrainer.py(149) : Epoch 129: Train (100%)  Score: 33.8647,  Loss: -1.6108
+[2026-06-22 23:30:50] EVRPTWTrainer.py(82) : Epoch 129/320: Time Est.: Elapsed[4.99h], Remain[7.39h]
+[2026-06-22 23:30:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:30:50] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:30:50] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:32:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:33:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:33:20] EVRPTWTrainer.py(149) : Epoch 130: Train (100%)  Score: 34.3876,  Loss: -1.6504
+[2026-06-22 23:33:20] EVRPTWTrainer.py(82) : Epoch 130/320: Time Est.: Elapsed[5.03h], Remain[7.36h]
+[2026-06-22 23:33:20] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:33:21] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:33:21] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:34:32] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:35:43] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:35:50] EVRPTWTrainer.py(149) : Epoch 131: Train (100%)  Score: 34.8260,  Loss: -3.0231
+[2026-06-22 23:35:50] EVRPTWTrainer.py(82) : Epoch 131/320: Time Est.: Elapsed[5.07h], Remain[7.32h]
+[2026-06-22 23:35:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:35:50] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:35:50] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:36:59] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:38:10] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:38:18] EVRPTWTrainer.py(149) : Epoch 132: Train (100%)  Score: 33.6400,  Loss: -1.7972
+[2026-06-22 23:38:18] EVRPTWTrainer.py(82) : Epoch 132/320: Time Est.: Elapsed[5.12h], Remain[7.29h]
+[2026-06-22 23:38:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:38:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:38:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:39:29] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:40:41] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:40:48] EVRPTWTrainer.py(149) : Epoch 133: Train (100%)  Score: 33.5728,  Loss: -1.9653
+[2026-06-22 23:40:48] EVRPTWTrainer.py(82) : Epoch 133/320: Time Est.: Elapsed[5.16h], Remain[7.25h]
+[2026-06-22 23:40:48] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:40:49] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:40:49] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:42:00] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:43:11] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:43:18] EVRPTWTrainer.py(149) : Epoch 134: Train (100%)  Score: 34.6443,  Loss: -1.6283
+[2026-06-22 23:43:18] EVRPTWTrainer.py(82) : Epoch 134/320: Time Est.: Elapsed[5.20h], Remain[7.22h]
+[2026-06-22 23:43:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:43:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:43:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:44:29] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:45:37] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:45:44] EVRPTWTrainer.py(149) : Epoch 135: Train (100%)  Score: 35.2601,  Loss: -2.3408
+[2026-06-22 23:45:44] EVRPTWTrainer.py(82) : Epoch 135/320: Time Est.: Elapsed[5.24h], Remain[7.18h]
+[2026-06-22 23:45:44] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:45:44] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:45:44] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:46:57] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:48:08] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:48:15] EVRPTWTrainer.py(149) : Epoch 136: Train (100%)  Score: 33.7923,  Loss: -1.5838
+[2026-06-22 23:48:15] EVRPTWTrainer.py(82) : Epoch 136/320: Time Est.: Elapsed[5.28h], Remain[7.15h]
+[2026-06-22 23:48:15] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:48:16] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:48:16] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:49:26] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:50:37] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:50:44] EVRPTWTrainer.py(149) : Epoch 137: Train (100%)  Score: 34.4352,  Loss: -1.8544
+[2026-06-22 23:50:44] EVRPTWTrainer.py(82) : Epoch 137/320: Time Est.: Elapsed[5.32h], Remain[7.11h]
+[2026-06-22 23:50:44] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:50:44] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:50:44] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:51:55] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:53:05] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:53:12] EVRPTWTrainer.py(149) : Epoch 138: Train (100%)  Score: 34.0744,  Loss: -1.9164
+[2026-06-22 23:53:12] EVRPTWTrainer.py(82) : Epoch 138/320: Time Est.: Elapsed[5.36h], Remain[7.07h]
+[2026-06-22 23:53:12] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:53:13] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:53:13] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:54:23] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:55:35] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:55:42] EVRPTWTrainer.py(149) : Epoch 139: Train (100%)  Score: 34.3016,  Loss: -1.9546
+[2026-06-22 23:55:42] EVRPTWTrainer.py(82) : Epoch 139/320: Time Est.: Elapsed[5.41h], Remain[7.04h]
+[2026-06-22 23:55:42] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:55:43] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:55:43] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:56:54] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-22 23:58:05] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-22 23:58:12] EVRPTWTrainer.py(149) : Epoch 140: Train (100%)  Score: 33.6521,  Loss: -1.6159
+[2026-06-22 23:58:12] EVRPTWTrainer.py(82) : Epoch 140/320: Time Est.: Elapsed[5.45h], Remain[7.00h]
+[2026-06-22 23:58:12] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-22 23:58:12] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-22 23:58:12] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-22 23:59:23] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:00:33] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:00:40] EVRPTWTrainer.py(149) : Epoch 141: Train (100%)  Score: 34.1907,  Loss: -1.5094
+[2026-06-23 00:00:40] EVRPTWTrainer.py(82) : Epoch 141/320: Time Est.: Elapsed[5.49h], Remain[6.97h]
+[2026-06-23 00:00:40] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:00:41] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:00:41] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:01:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:03:02] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:03:09] EVRPTWTrainer.py(149) : Epoch 142: Train (100%)  Score: 34.2409,  Loss: -1.7047
+[2026-06-23 00:03:09] EVRPTWTrainer.py(82) : Epoch 142/320: Time Est.: Elapsed[5.53h], Remain[6.93h]
+[2026-06-23 00:03:09] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:03:10] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:03:10] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:04:21] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:05:33] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:05:40] EVRPTWTrainer.py(149) : Epoch 143: Train (100%)  Score: 34.6639,  Loss: -1.6428
+[2026-06-23 00:05:40] EVRPTWTrainer.py(82) : Epoch 143/320: Time Est.: Elapsed[5.57h], Remain[6.90h]
+[2026-06-23 00:05:40] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:05:40] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:05:40] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:06:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:08:01] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:08:08] EVRPTWTrainer.py(149) : Epoch 144: Train (100%)  Score: 34.5943,  Loss: -1.4639
+[2026-06-23 00:08:08] EVRPTWTrainer.py(82) : Epoch 144/320: Time Est.: Elapsed[5.61h], Remain[6.86h]
+[2026-06-23 00:08:08] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:08:09] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:08:09] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:09:18] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:10:30] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:10:37] EVRPTWTrainer.py(149) : Epoch 145: Train (100%)  Score: 34.6842,  Loss: -1.6416
+[2026-06-23 00:10:37] EVRPTWTrainer.py(82) : Epoch 145/320: Time Est.: Elapsed[5.65h], Remain[6.82h]
+[2026-06-23 00:10:37] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:10:37] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:10:37] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:11:48] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:13:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:13:07] EVRPTWTrainer.py(149) : Epoch 146: Train (100%)  Score: 33.9135,  Loss: -1.5908
+[2026-06-23 00:13:07] EVRPTWTrainer.py(82) : Epoch 146/320: Time Est.: Elapsed[5.70h], Remain[6.79h]
+[2026-06-23 00:13:07] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:13:07] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:13:07] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:14:18] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:15:28] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:15:35] EVRPTWTrainer.py(149) : Epoch 147: Train (100%)  Score: 34.3362,  Loss: -1.6746
+[2026-06-23 00:15:35] EVRPTWTrainer.py(82) : Epoch 147/320: Time Est.: Elapsed[5.74h], Remain[6.75h]
+[2026-06-23 00:15:35] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:15:35] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:15:35] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:16:45] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:17:55] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:18:03] EVRPTWTrainer.py(149) : Epoch 148: Train (100%)  Score: 34.0338,  Loss: -1.3062
+[2026-06-23 00:18:03] EVRPTWTrainer.py(82) : Epoch 148/320: Time Est.: Elapsed[5.78h], Remain[6.71h]
+[2026-06-23 00:18:03] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:18:03] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:18:03] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:19:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:20:26] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:20:33] EVRPTWTrainer.py(149) : Epoch 149: Train (100%)  Score: 33.2972,  Loss: -1.4806
+[2026-06-23 00:20:33] EVRPTWTrainer.py(82) : Epoch 149/320: Time Est.: Elapsed[5.82h], Remain[6.68h]
+[2026-06-23 00:20:33] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:20:34] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:20:34] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:21:44] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:22:56] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:23:02] EVRPTWTrainer.py(149) : Epoch 150: Train (100%)  Score: 34.6206,  Loss: -2.2532
+[2026-06-23 00:23:02] EVRPTWTrainer.py(82) : Epoch 150/320: Time Est.: Elapsed[5.86h], Remain[6.64h]
+[2026-06-23 00:23:02] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:23:03] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:23:03] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:24:13] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:25:22] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:25:29] EVRPTWTrainer.py(149) : Epoch 151: Train (100%)  Score: 34.5921,  Loss: -1.5657
+[2026-06-23 00:25:29] EVRPTWTrainer.py(82) : Epoch 151/320: Time Est.: Elapsed[5.90h], Remain[6.61h]
+[2026-06-23 00:25:29] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:25:30] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:25:30] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:26:40] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:27:51] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:27:58] EVRPTWTrainer.py(149) : Epoch 152: Train (100%)  Score: 34.0015,  Loss: -1.7963
+[2026-06-23 00:27:58] EVRPTWTrainer.py(82) : Epoch 152/320: Time Est.: Elapsed[5.94h], Remain[6.57h]
+[2026-06-23 00:27:58] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:27:59] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:27:59] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:29:10] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:30:20] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:30:27] EVRPTWTrainer.py(149) : Epoch 153: Train (100%)  Score: 33.5127,  Loss: -1.4426
+[2026-06-23 00:30:27] EVRPTWTrainer.py(82) : Epoch 153/320: Time Est.: Elapsed[5.98h], Remain[6.53h]
+[2026-06-23 00:30:27] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:30:27] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:30:27] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:31:38] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:32:49] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:32:56] EVRPTWTrainer.py(149) : Epoch 154: Train (100%)  Score: 34.0746,  Loss: -1.4089
+[2026-06-23 00:32:56] EVRPTWTrainer.py(82) : Epoch 154/320: Time Est.: Elapsed[6.03h], Remain[6.50h]
+[2026-06-23 00:32:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:32:56] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:32:56] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:34:07] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:35:19] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:35:26] EVRPTWTrainer.py(149) : Epoch 155: Train (100%)  Score: 33.6238,  Loss: -1.1806
+[2026-06-23 00:35:26] EVRPTWTrainer.py(82) : Epoch 155/320: Time Est.: Elapsed[6.07h], Remain[6.46h]
+[2026-06-23 00:35:26] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:35:26] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:35:26] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:36:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:37:48] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:37:56] EVRPTWTrainer.py(149) : Epoch 156: Train (100%)  Score: 34.1555,  Loss: -1.1975
+[2026-06-23 00:37:56] EVRPTWTrainer.py(82) : Epoch 156/320: Time Est.: Elapsed[6.11h], Remain[6.42h]
+[2026-06-23 00:37:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:37:56] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:37:56] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:39:07] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:40:18] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:40:24] EVRPTWTrainer.py(149) : Epoch 157: Train (100%)  Score: 33.5370,  Loss: -1.0294
+[2026-06-23 00:40:24] EVRPTWTrainer.py(82) : Epoch 157/320: Time Est.: Elapsed[6.15h], Remain[6.39h]
+[2026-06-23 00:40:24] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:40:25] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:40:25] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:41:35] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:42:46] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:42:53] EVRPTWTrainer.py(149) : Epoch 158: Train (100%)  Score: 34.5641,  Loss: -1.7048
+[2026-06-23 00:42:53] EVRPTWTrainer.py(82) : Epoch 158/320: Time Est.: Elapsed[6.19h], Remain[6.35h]
+[2026-06-23 00:42:53] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:42:53] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:42:53] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:44:05] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:45:16] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:45:23] EVRPTWTrainer.py(149) : Epoch 159: Train (100%)  Score: 33.4295,  Loss: -1.1870
+[2026-06-23 00:45:23] EVRPTWTrainer.py(82) : Epoch 159/320: Time Est.: Elapsed[6.23h], Remain[6.31h]
+[2026-06-23 00:45:23] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:45:24] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:45:24] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:46:35] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:47:45] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:47:52] EVRPTWTrainer.py(149) : Epoch 160: Train (100%)  Score: 33.9565,  Loss: -0.9710
+[2026-06-23 00:47:52] EVRPTWTrainer.py(82) : Epoch 160/320: Time Est.: Elapsed[6.27h], Remain[6.27h]
+[2026-06-23 00:47:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:47:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:47:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:49:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:50:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:50:20] EVRPTWTrainer.py(149) : Epoch 161: Train (100%)  Score: 33.8908,  Loss: -1.1378
+[2026-06-23 00:50:20] EVRPTWTrainer.py(82) : Epoch 161/320: Time Est.: Elapsed[6.32h], Remain[6.24h]
+[2026-06-23 00:50:20] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:50:20] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:50:20] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:51:31] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:52:43] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:52:50] EVRPTWTrainer.py(149) : Epoch 162: Train (100%)  Score: 34.0098,  Loss: -0.9667
+[2026-06-23 00:52:50] EVRPTWTrainer.py(82) : Epoch 162/320: Time Est.: Elapsed[6.36h], Remain[6.20h]
+[2026-06-23 00:52:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:52:50] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:52:50] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:54:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:55:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:55:20] EVRPTWTrainer.py(149) : Epoch 163: Train (100%)  Score: 34.5319,  Loss: -1.0804
+[2026-06-23 00:55:20] EVRPTWTrainer.py(82) : Epoch 163/320: Time Est.: Elapsed[6.40h], Remain[6.16h]
+[2026-06-23 00:55:20] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:55:20] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:55:20] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:56:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 00:57:41] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 00:57:48] EVRPTWTrainer.py(149) : Epoch 164: Train (100%)  Score: 34.3757,  Loss: -1.6845
+[2026-06-23 00:57:48] EVRPTWTrainer.py(82) : Epoch 164/320: Time Est.: Elapsed[6.44h], Remain[6.13h]
+[2026-06-23 00:57:48] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 00:57:48] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 00:57:48] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 00:59:00] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:00:11] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:00:18] EVRPTWTrainer.py(149) : Epoch 165: Train (100%)  Score: 33.9875,  Loss: -1.0110
+[2026-06-23 01:00:18] EVRPTWTrainer.py(82) : Epoch 165/320: Time Est.: Elapsed[6.48h], Remain[6.09h]
+[2026-06-23 01:00:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:00:19] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:00:19] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:01:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:02:41] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:02:48] EVRPTWTrainer.py(149) : Epoch 166: Train (100%)  Score: 34.1549,  Loss: -1.3426
+[2026-06-23 01:02:48] EVRPTWTrainer.py(82) : Epoch 166/320: Time Est.: Elapsed[6.52h], Remain[6.05h]
+[2026-06-23 01:02:48] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:02:48] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:02:48] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:03:58] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:05:09] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:05:16] EVRPTWTrainer.py(149) : Epoch 167: Train (100%)  Score: 33.9033,  Loss: -1.3263
+[2026-06-23 01:05:16] EVRPTWTrainer.py(82) : Epoch 167/320: Time Est.: Elapsed[6.56h], Remain[6.01h]
+[2026-06-23 01:05:16] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:05:16] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:05:16] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:06:27] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:07:34] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:07:39] EVRPTWTrainer.py(149) : Epoch 168: Train (100%)  Score: 35.7265,  Loss: -2.1075
+[2026-06-23 01:07:39] EVRPTWTrainer.py(82) : Epoch 168/320: Time Est.: Elapsed[6.60h], Remain[5.98h]
+[2026-06-23 01:07:39] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:07:39] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:07:39] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:08:26] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:09:11] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:09:16] EVRPTWTrainer.py(149) : Epoch 169: Train (100%)  Score: 34.2559,  Loss: -1.7285
+[2026-06-23 01:09:16] EVRPTWTrainer.py(82) : Epoch 169/320: Time Est.: Elapsed[6.63h], Remain[5.93h]
+[2026-06-23 01:09:16] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:09:17] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:09:17] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:10:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:10:47] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:10:52] EVRPTWTrainer.py(149) : Epoch 170: Train (100%)  Score: 33.6965,  Loss: -1.1923
+[2026-06-23 01:10:52] EVRPTWTrainer.py(82) : Epoch 170/320: Time Est.: Elapsed[6.66h], Remain[5.87h]
+[2026-06-23 01:10:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:10:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:10:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:11:36] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:12:21] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:12:25] EVRPTWTrainer.py(149) : Epoch 171: Train (100%)  Score: 33.4044,  Loss: -0.9202
+[2026-06-23 01:12:25] EVRPTWTrainer.py(82) : Epoch 171/320: Time Est.: Elapsed[6.68h], Remain[5.82h]
+[2026-06-23 01:12:25] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:12:26] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:12:26] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:13:12] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:13:56] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:14:01] EVRPTWTrainer.py(149) : Epoch 172: Train (100%)  Score: 33.9962,  Loss: -1.3303
+[2026-06-23 01:14:01] EVRPTWTrainer.py(82) : Epoch 172/320: Time Est.: Elapsed[6.71h], Remain[5.77h]
+[2026-06-23 01:14:01] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:14:01] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:14:01] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:14:46] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:15:32] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:15:37] EVRPTWTrainer.py(149) : Epoch 173: Train (100%)  Score: 33.4169,  Loss: -1.0317
+[2026-06-23 01:15:37] EVRPTWTrainer.py(82) : Epoch 173/320: Time Est.: Elapsed[6.74h], Remain[5.72h]
+[2026-06-23 01:15:37] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:15:37] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:15:37] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:16:22] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:17:08] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:17:12] EVRPTWTrainer.py(149) : Epoch 174: Train (100%)  Score: 34.4844,  Loss: -0.9755
+[2026-06-23 01:17:12] EVRPTWTrainer.py(82) : Epoch 174/320: Time Est.: Elapsed[6.76h], Remain[5.68h]
+[2026-06-23 01:17:12] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:17:13] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:17:13] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:17:58] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:18:43] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:18:48] EVRPTWTrainer.py(149) : Epoch 175: Train (100%)  Score: 33.2767,  Loss: -0.6904
+[2026-06-23 01:18:48] EVRPTWTrainer.py(82) : Epoch 175/320: Time Est.: Elapsed[6.79h], Remain[5.63h]
+[2026-06-23 01:18:48] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:18:48] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:18:48] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:19:32] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:20:14] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:20:19] EVRPTWTrainer.py(149) : Epoch 176: Train (100%)  Score: 34.4806,  Loss: -0.8049
+[2026-06-23 01:20:19] EVRPTWTrainer.py(82) : Epoch 176/320: Time Est.: Elapsed[6.82h], Remain[5.58h]
+[2026-06-23 01:20:19] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:20:19] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:20:19] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:21:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:21:45] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:21:50] EVRPTWTrainer.py(149) : Epoch 177: Train (100%)  Score: 34.0057,  Loss: -0.9315
+[2026-06-23 01:21:50] EVRPTWTrainer.py(82) : Epoch 177/320: Time Est.: Elapsed[6.84h], Remain[5.53h]
+[2026-06-23 01:21:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:21:50] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:21:50] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:22:33] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:23:17] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:23:21] EVRPTWTrainer.py(149) : Epoch 178: Train (100%)  Score: 33.8255,  Loss: -0.7236
+[2026-06-23 01:23:21] EVRPTWTrainer.py(82) : Epoch 178/320: Time Est.: Elapsed[6.87h], Remain[5.48h]
+[2026-06-23 01:23:21] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:23:22] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:23:22] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:24:07] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:24:52] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:24:57] EVRPTWTrainer.py(149) : Epoch 179: Train (100%)  Score: 33.9840,  Loss: -1.1965
+[2026-06-23 01:24:57] EVRPTWTrainer.py(82) : Epoch 179/320: Time Est.: Elapsed[6.89h], Remain[5.43h]
+[2026-06-23 01:24:57] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:24:57] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:24:57] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:25:43] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:26:27] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:26:32] EVRPTWTrainer.py(149) : Epoch 180: Train (100%)  Score: 33.6437,  Loss: -1.9170
+[2026-06-23 01:26:32] EVRPTWTrainer.py(82) : Epoch 180/320: Time Est.: Elapsed[6.92h], Remain[5.38h]
+[2026-06-23 01:26:32] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:26:32] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:26:32] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:27:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:28:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:28:04] EVRPTWTrainer.py(149) : Epoch 181: Train (100%)  Score: 34.0264,  Loss: -1.1183
+[2026-06-23 01:28:04] EVRPTWTrainer.py(82) : Epoch 181/320: Time Est.: Elapsed[6.94h], Remain[5.33h]
+[2026-06-23 01:28:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:28:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:28:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:28:50] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:29:35] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:29:39] EVRPTWTrainer.py(149) : Epoch 182: Train (100%)  Score: 34.2225,  Loss: -1.1685
+[2026-06-23 01:29:39] EVRPTWTrainer.py(82) : Epoch 182/320: Time Est.: Elapsed[6.97h], Remain[5.29h]
+[2026-06-23 01:29:39] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:29:39] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:29:39] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:30:22] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:31:06] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:31:11] EVRPTWTrainer.py(149) : Epoch 183: Train (100%)  Score: 33.8679,  Loss: -0.8023
+[2026-06-23 01:31:11] EVRPTWTrainer.py(82) : Epoch 183/320: Time Est.: Elapsed[7.00h], Remain[5.24h]
+[2026-06-23 01:31:11] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:31:11] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:31:11] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:31:57] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:32:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:32:46] EVRPTWTrainer.py(149) : Epoch 184: Train (100%)  Score: 34.0260,  Loss: -0.9927
+[2026-06-23 01:32:46] EVRPTWTrainer.py(82) : Epoch 184/320: Time Est.: Elapsed[7.02h], Remain[5.19h]
+[2026-06-23 01:32:46] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:32:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:32:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:33:32] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:34:18] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:34:23] EVRPTWTrainer.py(149) : Epoch 185: Train (100%)  Score: 34.0262,  Loss: -0.4975
+[2026-06-23 01:34:23] EVRPTWTrainer.py(82) : Epoch 185/320: Time Est.: Elapsed[7.05h], Remain[5.14h]
+[2026-06-23 01:34:23] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:34:23] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:34:23] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:35:08] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:35:54] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:35:58] EVRPTWTrainer.py(149) : Epoch 186: Train (100%)  Score: 33.5195,  Loss: -0.7705
+[2026-06-23 01:35:58] EVRPTWTrainer.py(82) : Epoch 186/320: Time Est.: Elapsed[7.08h], Remain[5.10h]
+[2026-06-23 01:35:58] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:35:58] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:35:58] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:36:44] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:37:29] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:37:34] EVRPTWTrainer.py(149) : Epoch 187: Train (100%)  Score: 33.3467,  Loss: -1.2790
+[2026-06-23 01:37:34] EVRPTWTrainer.py(82) : Epoch 187/320: Time Est.: Elapsed[7.10h], Remain[5.05h]
+[2026-06-23 01:37:34] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:37:34] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:37:34] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:38:19] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:39:04] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:39:08] EVRPTWTrainer.py(149) : Epoch 188: Train (100%)  Score: 34.3869,  Loss: -0.7776
+[2026-06-23 01:39:08] EVRPTWTrainer.py(82) : Epoch 188/320: Time Est.: Elapsed[7.13h], Remain[5.01h]
+[2026-06-23 01:39:08] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:39:09] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:39:09] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:39:54] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:40:40] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:40:45] EVRPTWTrainer.py(149) : Epoch 189: Train (100%)  Score: 34.4610,  Loss: -1.2189
+[2026-06-23 01:40:45] EVRPTWTrainer.py(82) : Epoch 189/320: Time Est.: Elapsed[7.16h], Remain[4.96h]
+[2026-06-23 01:40:45] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:40:45] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:40:45] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:41:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:42:15] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:42:19] EVRPTWTrainer.py(149) : Epoch 190: Train (100%)  Score: 34.6508,  Loss: -1.3315
+[2026-06-23 01:42:19] EVRPTWTrainer.py(82) : Epoch 190/320: Time Est.: Elapsed[7.18h], Remain[4.91h]
+[2026-06-23 01:42:19] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:42:20] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:42:20] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:43:06] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:43:51] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:43:56] EVRPTWTrainer.py(149) : Epoch 191: Train (100%)  Score: 34.2470,  Loss: -0.8983
+[2026-06-23 01:43:56] EVRPTWTrainer.py(82) : Epoch 191/320: Time Est.: Elapsed[7.21h], Remain[4.87h]
+[2026-06-23 01:43:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:43:56] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:43:56] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:44:40] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:45:26] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:45:30] EVRPTWTrainer.py(149) : Epoch 192: Train (100%)  Score: 34.6303,  Loss: -1.1606
+[2026-06-23 01:45:30] EVRPTWTrainer.py(82) : Epoch 192/320: Time Est.: Elapsed[7.24h], Remain[4.82h]
+[2026-06-23 01:45:30] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:45:30] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:45:30] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:46:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:47:01] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:47:05] EVRPTWTrainer.py(149) : Epoch 193: Train (100%)  Score: 33.4583,  Loss: -1.0255
+[2026-06-23 01:47:05] EVRPTWTrainer.py(82) : Epoch 193/320: Time Est.: Elapsed[7.26h], Remain[4.78h]
+[2026-06-23 01:47:05] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:47:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:47:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:47:50] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:48:35] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:48:40] EVRPTWTrainer.py(149) : Epoch 194: Train (100%)  Score: 33.4183,  Loss: -0.3523
+[2026-06-23 01:48:40] EVRPTWTrainer.py(82) : Epoch 194/320: Time Est.: Elapsed[7.29h], Remain[4.73h]
+[2026-06-23 01:48:40] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:48:40] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:48:40] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:49:26] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:50:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:50:17] EVRPTWTrainer.py(149) : Epoch 195: Train (100%)  Score: 34.1800,  Loss: -0.6633
+[2026-06-23 01:50:17] EVRPTWTrainer.py(82) : Epoch 195/320: Time Est.: Elapsed[7.32h], Remain[4.69h]
+[2026-06-23 01:50:17] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:50:17] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:50:17] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:51:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:51:47] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:51:51] EVRPTWTrainer.py(149) : Epoch 196: Train (100%)  Score: 34.2206,  Loss: -0.4762
+[2026-06-23 01:51:51] EVRPTWTrainer.py(82) : Epoch 196/320: Time Est.: Elapsed[7.34h], Remain[4.64h]
+[2026-06-23 01:51:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:51:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:51:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:52:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:53:22] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:53:26] EVRPTWTrainer.py(149) : Epoch 197: Train (100%)  Score: 33.6044,  Loss: -0.7751
+[2026-06-23 01:53:26] EVRPTWTrainer.py(82) : Epoch 197/320: Time Est.: Elapsed[7.37h], Remain[4.60h]
+[2026-06-23 01:53:26] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:53:27] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:53:27] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:54:12] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:54:57] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:55:02] EVRPTWTrainer.py(149) : Epoch 198: Train (100%)  Score: 34.0338,  Loss: -0.9965
+[2026-06-23 01:55:02] EVRPTWTrainer.py(82) : Epoch 198/320: Time Est.: Elapsed[7.39h], Remain[4.56h]
+[2026-06-23 01:55:02] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:55:02] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:55:02] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:55:46] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:56:31] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:56:35] EVRPTWTrainer.py(149) : Epoch 199: Train (100%)  Score: 33.7719,  Loss: -0.6156
+[2026-06-23 01:56:35] EVRPTWTrainer.py(82) : Epoch 199/320: Time Est.: Elapsed[7.42h], Remain[4.51h]
+[2026-06-23 01:56:35] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:56:35] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:56:35] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:57:23] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:58:10] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:58:15] EVRPTWTrainer.py(149) : Epoch 200: Train (100%)  Score: 33.7906,  Loss: -0.7463
+[2026-06-23 01:58:15] EVRPTWTrainer.py(82) : Epoch 200/320: Time Est.: Elapsed[7.45h], Remain[4.47h]
+[2026-06-23 01:58:15] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:58:15] EVRPTWTrainer.py(98) : Saving trained_model
+[2026-06-23 01:58:15] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:58:15] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 01:59:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 01:59:46] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 01:59:50] EVRPTWTrainer.py(149) : Epoch 201: Train (100%)  Score: 33.6496,  Loss: -0.9580
+[2026-06-23 01:59:50] EVRPTWTrainer.py(82) : Epoch 201/320: Time Est.: Elapsed[7.47h], Remain[4.43h]
+[2026-06-23 01:59:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 01:59:50] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 01:59:50] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:00:35] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:01:21] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:01:26] EVRPTWTrainer.py(149) : Epoch 202: Train (100%)  Score: 33.8654,  Loss: -0.6936
+[2026-06-23 02:01:26] EVRPTWTrainer.py(82) : Epoch 202/320: Time Est.: Elapsed[7.50h], Remain[4.38h]
+[2026-06-23 02:01:26] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:01:26] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:01:26] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:02:10] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:02:54] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:02:58] EVRPTWTrainer.py(149) : Epoch 203: Train (100%)  Score: 34.5195,  Loss: -0.7456
+[2026-06-23 02:02:58] EVRPTWTrainer.py(82) : Epoch 203/320: Time Est.: Elapsed[7.53h], Remain[4.34h]
+[2026-06-23 02:02:58] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:02:58] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:02:58] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:03:43] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:04:28] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:04:33] EVRPTWTrainer.py(149) : Epoch 204: Train (100%)  Score: 34.4974,  Loss: -0.9279
+[2026-06-23 02:04:33] EVRPTWTrainer.py(82) : Epoch 204/320: Time Est.: Elapsed[7.55h], Remain[4.29h]
+[2026-06-23 02:04:33] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:04:33] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:04:33] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:05:17] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:06:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:06:05] EVRPTWTrainer.py(149) : Epoch 205: Train (100%)  Score: 34.3062,  Loss: -0.8593
+[2026-06-23 02:06:05] EVRPTWTrainer.py(82) : Epoch 205/320: Time Est.: Elapsed[7.58h], Remain[4.25h]
+[2026-06-23 02:06:05] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:06:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:06:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:06:50] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:07:35] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:07:40] EVRPTWTrainer.py(149) : Epoch 206: Train (100%)  Score: 33.9001,  Loss: -0.8164
+[2026-06-23 02:07:40] EVRPTWTrainer.py(82) : Epoch 206/320: Time Est.: Elapsed[7.60h], Remain[4.21h]
+[2026-06-23 02:07:40] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:07:40] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:07:40] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:08:24] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:09:08] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:09:12] EVRPTWTrainer.py(149) : Epoch 207: Train (100%)  Score: 34.4519,  Loss: -0.7188
+[2026-06-23 02:09:12] EVRPTWTrainer.py(82) : Epoch 207/320: Time Est.: Elapsed[7.63h], Remain[4.17h]
+[2026-06-23 02:09:12] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:09:12] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:09:12] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:09:57] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:10:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:10:46] EVRPTWTrainer.py(149) : Epoch 208: Train (100%)  Score: 33.3515,  Loss: -0.7598
+[2026-06-23 02:10:46] EVRPTWTrainer.py(82) : Epoch 208/320: Time Est.: Elapsed[7.66h], Remain[4.12h]
+[2026-06-23 02:10:46] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:10:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:10:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:11:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:12:14] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:12:18] EVRPTWTrainer.py(149) : Epoch 209: Train (100%)  Score: 34.0901,  Loss: -0.9963
+[2026-06-23 02:12:18] EVRPTWTrainer.py(82) : Epoch 209/320: Time Est.: Elapsed[7.68h], Remain[4.08h]
+[2026-06-23 02:12:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:12:19] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:12:19] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:13:04] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:13:54] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:13:58] EVRPTWTrainer.py(149) : Epoch 210: Train (100%)  Score: 33.6394,  Loss: -0.5454
+[2026-06-23 02:13:58] EVRPTWTrainer.py(82) : Epoch 210/320: Time Est.: Elapsed[7.71h], Remain[4.04h]
+[2026-06-23 02:13:58] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:13:58] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:13:58] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:14:47] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:15:32] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:15:38] EVRPTWTrainer.py(149) : Epoch 211: Train (100%)  Score: 34.2254,  Loss: -0.4972
+[2026-06-23 02:15:38] EVRPTWTrainer.py(82) : Epoch 211/320: Time Est.: Elapsed[7.74h], Remain[4.00h]
+[2026-06-23 02:15:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:15:38] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:15:38] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:16:23] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:17:10] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:17:14] EVRPTWTrainer.py(149) : Epoch 212: Train (100%)  Score: 33.9677,  Loss: -0.4263
+[2026-06-23 02:17:14] EVRPTWTrainer.py(82) : Epoch 212/320: Time Est.: Elapsed[7.76h], Remain[3.96h]
+[2026-06-23 02:17:14] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:17:14] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:17:14] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:18:00] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:18:46] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:18:50] EVRPTWTrainer.py(149) : Epoch 213: Train (100%)  Score: 33.6124,  Loss: -1.0371
+[2026-06-23 02:18:50] EVRPTWTrainer.py(82) : Epoch 213/320: Time Est.: Elapsed[7.79h], Remain[3.91h]
+[2026-06-23 02:18:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:18:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:18:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:19:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:20:21] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:20:26] EVRPTWTrainer.py(149) : Epoch 214: Train (100%)  Score: 34.2619,  Loss: -0.4935
+[2026-06-23 02:20:26] EVRPTWTrainer.py(82) : Epoch 214/320: Time Est.: Elapsed[7.82h], Remain[3.87h]
+[2026-06-23 02:20:26] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:20:26] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:20:26] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:21:12] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:21:59] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:22:03] EVRPTWTrainer.py(149) : Epoch 215: Train (100%)  Score: 34.3071,  Loss: -0.5961
+[2026-06-23 02:22:03] EVRPTWTrainer.py(82) : Epoch 215/320: Time Est.: Elapsed[7.84h], Remain[3.83h]
+[2026-06-23 02:22:03] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:22:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:22:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:22:49] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:23:34] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:23:38] EVRPTWTrainer.py(149) : Epoch 216: Train (100%)  Score: 34.0996,  Loss: -1.2061
+[2026-06-23 02:23:38] EVRPTWTrainer.py(82) : Epoch 216/320: Time Est.: Elapsed[7.87h], Remain[3.79h]
+[2026-06-23 02:23:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:23:38] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:23:38] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:24:25] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:25:11] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:25:15] EVRPTWTrainer.py(149) : Epoch 217: Train (100%)  Score: 34.6156,  Loss: -0.8652
+[2026-06-23 02:25:15] EVRPTWTrainer.py(82) : Epoch 217/320: Time Est.: Elapsed[7.90h], Remain[3.75h]
+[2026-06-23 02:25:15] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:25:15] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:25:15] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:26:01] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:26:46] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:26:51] EVRPTWTrainer.py(149) : Epoch 218: Train (100%)  Score: 34.4197,  Loss: -0.5448
+[2026-06-23 02:26:51] EVRPTWTrainer.py(82) : Epoch 218/320: Time Est.: Elapsed[7.92h], Remain[3.71h]
+[2026-06-23 02:26:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:26:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:26:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:27:36] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:28:24] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:28:28] EVRPTWTrainer.py(149) : Epoch 219: Train (100%)  Score: 34.3177,  Loss: -0.7161
+[2026-06-23 02:28:28] EVRPTWTrainer.py(82) : Epoch 219/320: Time Est.: Elapsed[7.95h], Remain[3.67h]
+[2026-06-23 02:28:28] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:28:28] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:28:28] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:29:14] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:29:59] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:30:04] EVRPTWTrainer.py(149) : Epoch 220: Train (100%)  Score: 33.6748,  Loss: -0.4579
+[2026-06-23 02:30:04] EVRPTWTrainer.py(82) : Epoch 220/320: Time Est.: Elapsed[7.98h], Remain[3.63h]
+[2026-06-23 02:30:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:30:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:30:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:30:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:31:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:31:41] EVRPTWTrainer.py(149) : Epoch 221: Train (100%)  Score: 33.3027,  Loss: -0.4915
+[2026-06-23 02:31:41] EVRPTWTrainer.py(82) : Epoch 221/320: Time Est.: Elapsed[8.01h], Remain[3.59h]
+[2026-06-23 02:31:41] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:31:41] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:31:41] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:32:27] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:33:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:33:18] EVRPTWTrainer.py(149) : Epoch 222: Train (100%)  Score: 34.3886,  Loss: -1.0500
+[2026-06-23 02:33:18] EVRPTWTrainer.py(82) : Epoch 222/320: Time Est.: Elapsed[8.03h], Remain[3.55h]
+[2026-06-23 02:33:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:33:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:33:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:34:03] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:34:49] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:34:52] EVRPTWTrainer.py(149) : Epoch 223: Train (100%)  Score: 34.3603,  Loss: -0.8269
+[2026-06-23 02:34:52] EVRPTWTrainer.py(82) : Epoch 223/320: Time Est.: Elapsed[8.06h], Remain[3.51h]
+[2026-06-23 02:34:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:34:53] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:34:53] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:35:39] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:36:24] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:36:28] EVRPTWTrainer.py(149) : Epoch 224: Train (100%)  Score: 34.0723,  Loss: -0.8466
+[2026-06-23 02:36:28] EVRPTWTrainer.py(82) : Epoch 224/320: Time Est.: Elapsed[8.08h], Remain[3.46h]
+[2026-06-23 02:36:28] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:36:29] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:36:29] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:37:14] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:37:59] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:38:04] EVRPTWTrainer.py(149) : Epoch 225: Train (100%)  Score: 34.1662,  Loss: -0.8431
+[2026-06-23 02:38:04] EVRPTWTrainer.py(82) : Epoch 225/320: Time Est.: Elapsed[8.11h], Remain[3.42h]
+[2026-06-23 02:38:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:38:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:38:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:38:49] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:39:35] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:39:39] EVRPTWTrainer.py(149) : Epoch 226: Train (100%)  Score: 34.0127,  Loss: -0.1321
+[2026-06-23 02:39:39] EVRPTWTrainer.py(82) : Epoch 226/320: Time Est.: Elapsed[8.14h], Remain[3.38h]
+[2026-06-23 02:39:39] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:39:39] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:39:39] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:40:25] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:41:10] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:41:14] EVRPTWTrainer.py(149) : Epoch 227: Train (100%)  Score: 33.5250,  Loss: -0.3911
+[2026-06-23 02:41:14] EVRPTWTrainer.py(82) : Epoch 227/320: Time Est.: Elapsed[8.16h], Remain[3.34h]
+[2026-06-23 02:41:14] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:41:14] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:41:14] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:42:00] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:42:45] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:42:50] EVRPTWTrainer.py(149) : Epoch 228: Train (100%)  Score: 33.3938,  Loss: -0.4242
+[2026-06-23 02:42:50] EVRPTWTrainer.py(82) : Epoch 228/320: Time Est.: Elapsed[8.19h], Remain[3.31h]
+[2026-06-23 02:42:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:42:50] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:42:50] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:43:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:44:21] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:44:26] EVRPTWTrainer.py(149) : Epoch 229: Train (100%)  Score: 34.2349,  Loss: -0.3119
+[2026-06-23 02:44:26] EVRPTWTrainer.py(82) : Epoch 229/320: Time Est.: Elapsed[8.22h], Remain[3.27h]
+[2026-06-23 02:44:26] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:44:26] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:44:26] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:45:10] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:45:58] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:46:02] EVRPTWTrainer.py(149) : Epoch 230: Train (100%)  Score: 33.7075,  Loss: -0.4328
+[2026-06-23 02:46:02] EVRPTWTrainer.py(82) : Epoch 230/320: Time Est.: Elapsed[8.24h], Remain[3.23h]
+[2026-06-23 02:46:02] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:46:02] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:46:02] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:46:48] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:47:33] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:47:37] EVRPTWTrainer.py(149) : Epoch 231: Train (100%)  Score: 34.3140,  Loss: -0.3532
+[2026-06-23 02:47:37] EVRPTWTrainer.py(82) : Epoch 231/320: Time Est.: Elapsed[8.27h], Remain[3.19h]
+[2026-06-23 02:47:37] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:47:37] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:47:37] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:48:23] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:49:08] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:49:13] EVRPTWTrainer.py(149) : Epoch 232: Train (100%)  Score: 34.0026,  Loss: -0.6368
+[2026-06-23 02:49:13] EVRPTWTrainer.py(82) : Epoch 232/320: Time Est.: Elapsed[8.30h], Remain[3.15h]
+[2026-06-23 02:49:13] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:49:13] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:49:13] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:49:59] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:50:45] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:50:49] EVRPTWTrainer.py(149) : Epoch 233: Train (100%)  Score: 34.4122,  Loss: -0.6049
+[2026-06-23 02:50:49] EVRPTWTrainer.py(82) : Epoch 233/320: Time Est.: Elapsed[8.32h], Remain[3.11h]
+[2026-06-23 02:50:49] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:50:50] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:50:50] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:51:34] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:52:20] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:52:24] EVRPTWTrainer.py(149) : Epoch 234: Train (100%)  Score: 34.7203,  Loss: -1.5017
+[2026-06-23 02:52:24] EVRPTWTrainer.py(82) : Epoch 234/320: Time Est.: Elapsed[8.35h], Remain[3.07h]
+[2026-06-23 02:52:24] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:52:24] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:52:24] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:53:10] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:53:55] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:54:00] EVRPTWTrainer.py(149) : Epoch 235: Train (100%)  Score: 34.4233,  Loss: -0.6825
+[2026-06-23 02:54:00] EVRPTWTrainer.py(82) : Epoch 235/320: Time Est.: Elapsed[8.38h], Remain[3.03h]
+[2026-06-23 02:54:00] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:54:00] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:54:00] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:54:46] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:55:30] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:55:35] EVRPTWTrainer.py(149) : Epoch 236: Train (100%)  Score: 33.5069,  Loss: -0.8313
+[2026-06-23 02:55:35] EVRPTWTrainer.py(82) : Epoch 236/320: Time Est.: Elapsed[8.40h], Remain[2.99h]
+[2026-06-23 02:55:35] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:55:36] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:55:36] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:56:20] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:57:06] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:57:11] EVRPTWTrainer.py(149) : Epoch 237: Train (100%)  Score: 34.0531,  Loss: -0.5693
+[2026-06-23 02:57:11] EVRPTWTrainer.py(82) : Epoch 237/320: Time Est.: Elapsed[8.43h], Remain[2.95h]
+[2026-06-23 02:57:11] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:57:11] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:57:11] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:57:56] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 02:58:42] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 02:58:46] EVRPTWTrainer.py(149) : Epoch 238: Train (100%)  Score: 34.3516,  Loss: -0.5891
+[2026-06-23 02:58:46] EVRPTWTrainer.py(82) : Epoch 238/320: Time Est.: Elapsed[8.46h], Remain[2.91h]
+[2026-06-23 02:58:46] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 02:58:46] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 02:58:46] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 02:59:32] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:00:17] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:00:22] EVRPTWTrainer.py(149) : Epoch 239: Train (100%)  Score: 34.0288,  Loss: -0.3396
+[2026-06-23 03:00:22] EVRPTWTrainer.py(82) : Epoch 239/320: Time Est.: Elapsed[8.48h], Remain[2.88h]
+[2026-06-23 03:00:22] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:00:22] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:00:22] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:01:09] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:01:54] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:01:59] EVRPTWTrainer.py(149) : Epoch 240: Train (100%)  Score: 33.1601,  Loss: -0.4035
+[2026-06-23 03:01:59] EVRPTWTrainer.py(82) : Epoch 240/320: Time Est.: Elapsed[8.51h], Remain[2.84h]
+[2026-06-23 03:01:59] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:01:59] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:01:59] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:02:43] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:03:30] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:03:34] EVRPTWTrainer.py(149) : Epoch 241: Train (100%)  Score: 34.1595,  Loss: -0.3815
+[2026-06-23 03:03:34] EVRPTWTrainer.py(82) : Epoch 241/320: Time Est.: Elapsed[8.54h], Remain[2.80h]
+[2026-06-23 03:03:34] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:03:34] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:03:34] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:04:20] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:05:06] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:05:10] EVRPTWTrainer.py(149) : Epoch 242: Train (100%)  Score: 34.5591,  Loss: -0.5462
+[2026-06-23 03:05:10] EVRPTWTrainer.py(82) : Epoch 242/320: Time Est.: Elapsed[8.56h], Remain[2.76h]
+[2026-06-23 03:05:10] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:05:10] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:05:10] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:05:56] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:06:40] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:06:45] EVRPTWTrainer.py(149) : Epoch 243: Train (100%)  Score: 33.4911,  Loss: -0.4424
+[2026-06-23 03:06:45] EVRPTWTrainer.py(82) : Epoch 243/320: Time Est.: Elapsed[8.59h], Remain[2.72h]
+[2026-06-23 03:06:45] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:06:45] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:06:45] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:07:32] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:08:17] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:08:22] EVRPTWTrainer.py(149) : Epoch 244: Train (100%)  Score: 33.7452,  Loss: -0.3376
+[2026-06-23 03:08:22] EVRPTWTrainer.py(82) : Epoch 244/320: Time Est.: Elapsed[8.62h], Remain[2.68h]
+[2026-06-23 03:08:22] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:08:23] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:08:23] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:09:06] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:09:52] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:09:56] EVRPTWTrainer.py(149) : Epoch 245: Train (100%)  Score: 33.3053,  Loss: -0.2974
+[2026-06-23 03:09:56] EVRPTWTrainer.py(82) : Epoch 245/320: Time Est.: Elapsed[8.64h], Remain[2.65h]
+[2026-06-23 03:09:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:09:57] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:09:57] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:10:43] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:11:29] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:11:33] EVRPTWTrainer.py(149) : Epoch 246: Train (100%)  Score: 34.4365,  Loss: -0.3479
+[2026-06-23 03:11:33] EVRPTWTrainer.py(82) : Epoch 246/320: Time Est.: Elapsed[8.67h], Remain[2.61h]
+[2026-06-23 03:11:33] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:11:33] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:11:33] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:12:19] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:13:03] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:13:08] EVRPTWTrainer.py(149) : Epoch 247: Train (100%)  Score: 33.9526,  Loss: -0.5672
+[2026-06-23 03:13:08] EVRPTWTrainer.py(82) : Epoch 247/320: Time Est.: Elapsed[8.70h], Remain[2.57h]
+[2026-06-23 03:13:08] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:13:08] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:13:08] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:13:53] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:14:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:14:44] EVRPTWTrainer.py(149) : Epoch 248: Train (100%)  Score: 34.2731,  Loss: -0.7655
+[2026-06-23 03:14:44] EVRPTWTrainer.py(82) : Epoch 248/320: Time Est.: Elapsed[8.72h], Remain[2.53h]
+[2026-06-23 03:14:44] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:14:44] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:14:44] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:15:29] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:16:15] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:16:19] EVRPTWTrainer.py(149) : Epoch 249: Train (100%)  Score: 33.9504,  Loss: -0.8413
+[2026-06-23 03:16:19] EVRPTWTrainer.py(82) : Epoch 249/320: Time Est.: Elapsed[8.75h], Remain[2.49h]
+[2026-06-23 03:16:19] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:16:19] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:16:19] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:17:05] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:17:50] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:17:54] EVRPTWTrainer.py(149) : Epoch 250: Train (100%)  Score: 33.3752,  Loss: -0.4282
+[2026-06-23 03:17:54] EVRPTWTrainer.py(82) : Epoch 250/320: Time Est.: Elapsed[8.78h], Remain[2.46h]
+[2026-06-23 03:17:54] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:17:54] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:17:54] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:18:41] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:19:26] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:19:31] EVRPTWTrainer.py(149) : Epoch 251: Train (100%)  Score: 33.9362,  Loss: -0.2179
+[2026-06-23 03:19:31] EVRPTWTrainer.py(82) : Epoch 251/320: Time Est.: Elapsed[8.80h], Remain[2.42h]
+[2026-06-23 03:19:31] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:19:32] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:19:32] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:20:16] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:21:02] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:21:06] EVRPTWTrainer.py(149) : Epoch 252: Train (100%)  Score: 33.8893,  Loss: -0.6231
+[2026-06-23 03:21:06] EVRPTWTrainer.py(82) : Epoch 252/320: Time Est.: Elapsed[8.83h], Remain[2.38h]
+[2026-06-23 03:21:06] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:21:06] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:21:06] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:21:53] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:22:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:22:43] EVRPTWTrainer.py(149) : Epoch 253: Train (100%)  Score: 34.5802,  Loss: -0.4563
+[2026-06-23 03:22:43] EVRPTWTrainer.py(82) : Epoch 253/320: Time Est.: Elapsed[8.86h], Remain[2.35h]
+[2026-06-23 03:22:43] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:22:44] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:22:44] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:23:29] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:24:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:24:18] EVRPTWTrainer.py(149) : Epoch 254: Train (100%)  Score: 35.5230,  Loss: -1.0290
+[2026-06-23 03:24:18] EVRPTWTrainer.py(82) : Epoch 254/320: Time Est.: Elapsed[8.88h], Remain[2.31h]
+[2026-06-23 03:24:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:24:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:24:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:25:05] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:25:51] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:25:56] EVRPTWTrainer.py(149) : Epoch 255: Train (100%)  Score: 34.3588,  Loss: -0.6179
+[2026-06-23 03:25:56] EVRPTWTrainer.py(82) : Epoch 255/320: Time Est.: Elapsed[8.91h], Remain[2.27h]
+[2026-06-23 03:25:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:25:57] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:25:57] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:26:41] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:27:26] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:27:31] EVRPTWTrainer.py(149) : Epoch 256: Train (100%)  Score: 34.1913,  Loss: -0.8095
+[2026-06-23 03:27:31] EVRPTWTrainer.py(82) : Epoch 256/320: Time Est.: Elapsed[8.94h], Remain[2.23h]
+[2026-06-23 03:27:31] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:27:31] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:27:31] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:28:17] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:29:03] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:29:07] EVRPTWTrainer.py(149) : Epoch 257: Train (100%)  Score: 33.3328,  Loss: -0.4115
+[2026-06-23 03:29:07] EVRPTWTrainer.py(82) : Epoch 257/320: Time Est.: Elapsed[8.96h], Remain[2.20h]
+[2026-06-23 03:29:07] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:29:07] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:29:07] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:29:55] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:30:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:30:44] EVRPTWTrainer.py(149) : Epoch 258: Train (100%)  Score: 36.2141,  Loss: -2.9952
+[2026-06-23 03:30:44] EVRPTWTrainer.py(82) : Epoch 258/320: Time Est.: Elapsed[8.99h], Remain[2.16h]
+[2026-06-23 03:30:44] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:30:45] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:30:45] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:31:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:32:16] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:32:21] EVRPTWTrainer.py(149) : Epoch 259: Train (100%)  Score: 34.4880,  Loss: -1.2773
+[2026-06-23 03:32:21] EVRPTWTrainer.py(82) : Epoch 259/320: Time Est.: Elapsed[9.02h], Remain[2.12h]
+[2026-06-23 03:32:21] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:32:21] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:32:21] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:33:06] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:33:51] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:33:56] EVRPTWTrainer.py(149) : Epoch 260: Train (100%)  Score: 34.8847,  Loss: -0.9010
+[2026-06-23 03:33:56] EVRPTWTrainer.py(82) : Epoch 260/320: Time Est.: Elapsed[9.04h], Remain[2.09h]
+[2026-06-23 03:33:56] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:33:56] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:33:56] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:34:42] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:35:27] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:35:31] EVRPTWTrainer.py(149) : Epoch 261: Train (100%)  Score: 33.6840,  Loss: -0.3814
+[2026-06-23 03:35:31] EVRPTWTrainer.py(82) : Epoch 261/320: Time Est.: Elapsed[9.07h], Remain[2.05h]
+[2026-06-23 03:35:31] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:35:31] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:35:31] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:36:18] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:37:03] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:37:09] EVRPTWTrainer.py(149) : Epoch 262: Train (100%)  Score: 33.4272,  Loss: -0.5439
+[2026-06-23 03:37:09] EVRPTWTrainer.py(82) : Epoch 262/320: Time Est.: Elapsed[9.10h], Remain[2.01h]
+[2026-06-23 03:37:09] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:37:09] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:37:09] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:37:54] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:38:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:38:44] EVRPTWTrainer.py(149) : Epoch 263: Train (100%)  Score: 33.7676,  Loss: -0.5048
+[2026-06-23 03:38:44] EVRPTWTrainer.py(82) : Epoch 263/320: Time Est.: Elapsed[9.12h], Remain[1.98h]
+[2026-06-23 03:38:44] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:38:44] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:38:44] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:39:30] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:40:16] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:40:20] EVRPTWTrainer.py(149) : Epoch 264: Train (100%)  Score: 33.4812,  Loss: -0.3994
+[2026-06-23 03:40:20] EVRPTWTrainer.py(82) : Epoch 264/320: Time Est.: Elapsed[9.15h], Remain[1.94h]
+[2026-06-23 03:40:20] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:40:20] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:40:20] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:41:05] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:41:50] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:41:54] EVRPTWTrainer.py(149) : Epoch 265: Train (100%)  Score: 33.3579,  Loss: -0.3847
+[2026-06-23 03:41:54] EVRPTWTrainer.py(82) : Epoch 265/320: Time Est.: Elapsed[9.18h], Remain[1.90h]
+[2026-06-23 03:41:54] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:41:54] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:41:54] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:42:41] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:43:26] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:43:31] EVRPTWTrainer.py(149) : Epoch 266: Train (100%)  Score: 34.1775,  Loss: -0.3707
+[2026-06-23 03:43:31] EVRPTWTrainer.py(82) : Epoch 266/320: Time Est.: Elapsed[9.20h], Remain[1.87h]
+[2026-06-23 03:43:31] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:43:32] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:43:32] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:44:16] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:45:02] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:45:06] EVRPTWTrainer.py(149) : Epoch 267: Train (100%)  Score: 33.5891,  Loss: -0.4155
+[2026-06-23 03:45:06] EVRPTWTrainer.py(82) : Epoch 267/320: Time Est.: Elapsed[9.23h], Remain[1.83h]
+[2026-06-23 03:45:06] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:45:06] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:45:06] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:45:52] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:46:39] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:46:42] EVRPTWTrainer.py(149) : Epoch 268: Train (100%)  Score: 33.1317,  Loss: -0.4452
+[2026-06-23 03:46:42] EVRPTWTrainer.py(82) : Epoch 268/320: Time Est.: Elapsed[9.26h], Remain[1.80h]
+[2026-06-23 03:46:42] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:46:43] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:46:43] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:47:29] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:48:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:48:18] EVRPTWTrainer.py(149) : Epoch 269: Train (100%)  Score: 34.2559,  Loss: -0.1473
+[2026-06-23 03:48:18] EVRPTWTrainer.py(82) : Epoch 269/320: Time Est.: Elapsed[9.28h], Remain[1.76h]
+[2026-06-23 03:48:18] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:48:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:48:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:49:04] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:49:50] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:49:55] EVRPTWTrainer.py(149) : Epoch 270: Train (100%)  Score: 34.3836,  Loss: -0.3744
+[2026-06-23 03:49:55] EVRPTWTrainer.py(82) : Epoch 270/320: Time Est.: Elapsed[9.31h], Remain[1.72h]
+[2026-06-23 03:49:55] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:49:55] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:49:55] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:50:39] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:51:25] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:51:29] EVRPTWTrainer.py(149) : Epoch 271: Train (100%)  Score: 33.3011,  Loss: -0.1541
+[2026-06-23 03:51:29] EVRPTWTrainer.py(82) : Epoch 271/320: Time Est.: Elapsed[9.34h], Remain[1.69h]
+[2026-06-23 03:51:29] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:51:29] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:51:29] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:52:14] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:53:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:53:04] EVRPTWTrainer.py(149) : Epoch 272: Train (100%)  Score: 34.2813,  Loss: -0.3186
+[2026-06-23 03:53:04] EVRPTWTrainer.py(82) : Epoch 272/320: Time Est.: Elapsed[9.36h], Remain[1.65h]
+[2026-06-23 03:53:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:53:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:53:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:53:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:54:35] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:54:40] EVRPTWTrainer.py(149) : Epoch 273: Train (100%)  Score: 33.7185,  Loss: -0.5546
+[2026-06-23 03:54:40] EVRPTWTrainer.py(82) : Epoch 273/320: Time Est.: Elapsed[9.39h], Remain[1.62h]
+[2026-06-23 03:54:40] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:54:40] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:54:40] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:55:25] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:56:10] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:56:15] EVRPTWTrainer.py(149) : Epoch 274: Train (100%)  Score: 33.7653,  Loss: -0.3305
+[2026-06-23 03:56:15] EVRPTWTrainer.py(82) : Epoch 274/320: Time Est.: Elapsed[9.41h], Remain[1.58h]
+[2026-06-23 03:56:15] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:56:15] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:56:15] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:57:00] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:57:47] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:57:51] EVRPTWTrainer.py(149) : Epoch 275: Train (100%)  Score: 33.8100,  Loss: -0.3044
+[2026-06-23 03:57:51] EVRPTWTrainer.py(82) : Epoch 275/320: Time Est.: Elapsed[9.44h], Remain[1.54h]
+[2026-06-23 03:57:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:57:51] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:57:51] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 03:58:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 03:59:21] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 03:59:25] EVRPTWTrainer.py(149) : Epoch 276: Train (100%)  Score: 33.7805,  Loss: -0.2158
+[2026-06-23 03:59:25] EVRPTWTrainer.py(82) : Epoch 276/320: Time Est.: Elapsed[9.47h], Remain[1.51h]
+[2026-06-23 03:59:25] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 03:59:26] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 03:59:26] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:00:12] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:00:58] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:01:03] EVRPTWTrainer.py(149) : Epoch 277: Train (100%)  Score: 33.6966,  Loss: -0.3956
+[2026-06-23 04:01:03] EVRPTWTrainer.py(82) : Epoch 277/320: Time Est.: Elapsed[9.49h], Remain[1.47h]
+[2026-06-23 04:01:03] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:01:03] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:01:03] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:01:48] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:02:33] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:02:38] EVRPTWTrainer.py(149) : Epoch 278: Train (100%)  Score: 33.7856,  Loss: -0.4049
+[2026-06-23 04:02:38] EVRPTWTrainer.py(82) : Epoch 278/320: Time Est.: Elapsed[9.52h], Remain[1.44h]
+[2026-06-23 04:02:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:02:38] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:02:38] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:03:24] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:04:11] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:04:15] EVRPTWTrainer.py(149) : Epoch 279: Train (100%)  Score: 33.9856,  Loss: -0.2485
+[2026-06-23 04:04:15] EVRPTWTrainer.py(82) : Epoch 279/320: Time Est.: Elapsed[9.55h], Remain[1.40h]
+[2026-06-23 04:04:15] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:04:15] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:04:15] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:05:01] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:05:45] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:05:50] EVRPTWTrainer.py(149) : Epoch 280: Train (100%)  Score: 33.4889,  Loss: -0.4286
+[2026-06-23 04:05:50] EVRPTWTrainer.py(82) : Epoch 280/320: Time Est.: Elapsed[9.57h], Remain[1.37h]
+[2026-06-23 04:05:50] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:05:50] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:05:50] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:06:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:07:23] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:07:28] EVRPTWTrainer.py(149) : Epoch 281: Train (100%)  Score: 33.9196,  Loss: -0.5072
+[2026-06-23 04:07:28] EVRPTWTrainer.py(82) : Epoch 281/320: Time Est.: Elapsed[9.60h], Remain[1.33h]
+[2026-06-23 04:07:28] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:07:28] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:07:28] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:08:13] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:08:59] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:09:04] EVRPTWTrainer.py(149) : Epoch 282: Train (100%)  Score: 34.2894,  Loss: -0.5946
+[2026-06-23 04:09:04] EVRPTWTrainer.py(82) : Epoch 282/320: Time Est.: Elapsed[9.63h], Remain[1.30h]
+[2026-06-23 04:09:04] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:09:04] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:09:04] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:09:49] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:10:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:10:40] EVRPTWTrainer.py(149) : Epoch 283: Train (100%)  Score: 34.6462,  Loss: -0.8493
+[2026-06-23 04:10:40] EVRPTWTrainer.py(82) : Epoch 283/320: Time Est.: Elapsed[9.65h], Remain[1.26h]
+[2026-06-23 04:10:40] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:10:40] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:10:40] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:11:27] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:12:10] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:12:15] EVRPTWTrainer.py(149) : Epoch 284: Train (100%)  Score: 33.2257,  Loss: -0.2942
+[2026-06-23 04:12:15] EVRPTWTrainer.py(82) : Epoch 284/320: Time Est.: Elapsed[9.68h], Remain[1.23h]
+[2026-06-23 04:12:15] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:12:15] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:12:15] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:13:01] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:13:47] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:13:52] EVRPTWTrainer.py(149) : Epoch 285: Train (100%)  Score: 34.4374,  Loss: -0.5276
+[2026-06-23 04:13:52] EVRPTWTrainer.py(82) : Epoch 285/320: Time Est.: Elapsed[9.71h], Remain[1.19h]
+[2026-06-23 04:13:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:13:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:13:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:14:37] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:15:23] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:15:28] EVRPTWTrainer.py(149) : Epoch 286: Train (100%)  Score: 33.8776,  Loss: -0.4288
+[2026-06-23 04:15:28] EVRPTWTrainer.py(82) : Epoch 286/320: Time Est.: Elapsed[9.73h], Remain[1.16h]
+[2026-06-23 04:15:28] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:15:28] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:15:28] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:16:13] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:16:58] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:17:02] EVRPTWTrainer.py(149) : Epoch 287: Train (100%)  Score: 33.3161,  Loss: -0.1478
+[2026-06-23 04:17:02] EVRPTWTrainer.py(82) : Epoch 287/320: Time Est.: Elapsed[9.76h], Remain[1.12h]
+[2026-06-23 04:17:02] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:17:02] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:17:02] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:17:49] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:18:33] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:18:38] EVRPTWTrainer.py(149) : Epoch 288: Train (100%)  Score: 34.6418,  Loss: -0.2797
+[2026-06-23 04:18:38] EVRPTWTrainer.py(82) : Epoch 288/320: Time Est.: Elapsed[9.79h], Remain[1.09h]
+[2026-06-23 04:18:38] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:18:39] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:18:39] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:19:24] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:20:10] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:20:16] EVRPTWTrainer.py(149) : Epoch 289: Train (100%)  Score: 33.0996,  Loss: -0.2500
+[2026-06-23 04:20:16] EVRPTWTrainer.py(82) : Epoch 289/320: Time Est.: Elapsed[9.81h], Remain[1.05h]
+[2026-06-23 04:20:16] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:20:16] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:20:16] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:21:01] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:21:48] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:21:52] EVRPTWTrainer.py(149) : Epoch 290: Train (100%)  Score: 34.4750,  Loss: -0.5458
+[2026-06-23 04:21:52] EVRPTWTrainer.py(82) : Epoch 290/320: Time Est.: Elapsed[9.84h], Remain[1.02h]
+[2026-06-23 04:21:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:21:53] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:21:53] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:22:40] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:23:24] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:23:29] EVRPTWTrainer.py(149) : Epoch 291: Train (100%)  Score: 33.7084,  Loss: -0.4323
+[2026-06-23 04:23:29] EVRPTWTrainer.py(82) : Epoch 291/320: Time Est.: Elapsed[9.87h], Remain[59.01m]
+[2026-06-23 04:23:29] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:23:29] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:23:29] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:24:14] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:25:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:25:05] EVRPTWTrainer.py(149) : Epoch 292: Train (100%)  Score: 33.5976,  Loss: -0.1823
+[2026-06-23 04:25:05] EVRPTWTrainer.py(82) : Epoch 292/320: Time Est.: Elapsed[9.90h], Remain[56.93m]
+[2026-06-23 04:25:05] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:25:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:25:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:25:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:26:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:26:41] EVRPTWTrainer.py(149) : Epoch 293: Train (100%)  Score: 34.2279,  Loss: -0.1972
+[2026-06-23 04:26:41] EVRPTWTrainer.py(82) : Epoch 293/320: Time Est.: Elapsed[9.92h], Remain[54.86m]
+[2026-06-23 04:26:41] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:26:41] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:26:41] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:27:25] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:28:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:28:16] EVRPTWTrainer.py(149) : Epoch 294: Train (100%)  Score: 34.2821,  Loss: -0.3281
+[2026-06-23 04:28:16] EVRPTWTrainer.py(82) : Epoch 294/320: Time Est.: Elapsed[9.95h], Remain[52.79m]
+[2026-06-23 04:28:16] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:28:16] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:28:16] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:29:03] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:29:47] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:29:53] EVRPTWTrainer.py(149) : Epoch 295: Train (100%)  Score: 34.4696,  Loss: -0.2828
+[2026-06-23 04:29:53] EVRPTWTrainer.py(82) : Epoch 295/320: Time Est.: Elapsed[9.98h], Remain[50.72m]
+[2026-06-23 04:29:53] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:29:53] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:29:53] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:30:38] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:31:25] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:31:30] EVRPTWTrainer.py(149) : Epoch 296: Train (100%)  Score: 33.3712,  Loss: -0.4431
+[2026-06-23 04:31:30] EVRPTWTrainer.py(82) : Epoch 296/320: Time Est.: Elapsed[10.00h], Remain[48.66m]
+[2026-06-23 04:31:30] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:31:30] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:31:30] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:32:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:33:01] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:33:06] EVRPTWTrainer.py(149) : Epoch 297: Train (100%)  Score: 34.3554,  Loss: -0.7151
+[2026-06-23 04:33:06] EVRPTWTrainer.py(82) : Epoch 297/320: Time Est.: Elapsed[10.03h], Remain[46.60m]
+[2026-06-23 04:33:06] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:33:06] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:33:06] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:33:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:34:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:34:41] EVRPTWTrainer.py(149) : Epoch 298: Train (100%)  Score: 33.5496,  Loss: -0.3481
+[2026-06-23 04:34:41] EVRPTWTrainer.py(82) : Epoch 298/320: Time Est.: Elapsed[10.06h], Remain[44.54m]
+[2026-06-23 04:34:41] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:34:41] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:34:41] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:35:27] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:36:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:36:17] EVRPTWTrainer.py(149) : Epoch 299: Train (100%)  Score: 33.2688,  Loss: -0.3971
+[2026-06-23 04:36:17] EVRPTWTrainer.py(82) : Epoch 299/320: Time Est.: Elapsed[10.08h], Remain[42.49m]
+[2026-06-23 04:36:17] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:36:18] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:36:18] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:37:03] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:37:48] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:37:53] EVRPTWTrainer.py(149) : Epoch 300: Train (100%)  Score: 33.8726,  Loss: -0.1817
+[2026-06-23 04:37:53] EVRPTWTrainer.py(82) : Epoch 300/320: Time Est.: Elapsed[10.11h], Remain[40.43m]
+[2026-06-23 04:37:53] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:37:53] EVRPTWTrainer.py(98) : Saving trained_model
+[2026-06-23 04:37:54] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:37:54] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:38:39] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:39:25] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:39:29] EVRPTWTrainer.py(149) : Epoch 301: Train (100%)  Score: 34.5753,  Loss: -0.5126
+[2026-06-23 04:39:29] EVRPTWTrainer.py(82) : Epoch 301/320: Time Est.: Elapsed[10.14h], Remain[38.39m]
+[2026-06-23 04:39:29] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:39:29] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:39:29] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:40:16] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:41:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:41:05] EVRPTWTrainer.py(149) : Epoch 302: Train (100%)  Score: 33.8698,  Loss: -0.1981
+[2026-06-23 04:41:05] EVRPTWTrainer.py(82) : Epoch 302/320: Time Est.: Elapsed[10.16h], Remain[36.34m]
+[2026-06-23 04:41:05] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:41:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:41:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:41:50] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:42:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:42:41] EVRPTWTrainer.py(149) : Epoch 303: Train (100%)  Score: 34.0747,  Loss: 0.0119
+[2026-06-23 04:42:41] EVRPTWTrainer.py(82) : Epoch 303/320: Time Est.: Elapsed[10.19h], Remain[34.30m]
+[2026-06-23 04:42:41] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:42:41] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:42:41] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:43:27] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:44:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:44:17] EVRPTWTrainer.py(149) : Epoch 304: Train (100%)  Score: 34.0419,  Loss: -0.0779
+[2026-06-23 04:44:17] EVRPTWTrainer.py(82) : Epoch 304/320: Time Est.: Elapsed[10.22h], Remain[32.26m]
+[2026-06-23 04:44:17] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:44:17] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:44:17] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:45:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:45:48] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:45:52] EVRPTWTrainer.py(149) : Epoch 305: Train (100%)  Score: 33.8783,  Loss: -0.1944
+[2026-06-23 04:45:52] EVRPTWTrainer.py(82) : Epoch 305/320: Time Est.: Elapsed[10.24h], Remain[30.22m]
+[2026-06-23 04:45:52] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:45:52] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:45:52] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:46:40] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:47:24] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:47:30] EVRPTWTrainer.py(149) : Epoch 306: Train (100%)  Score: 33.4233,  Loss: -0.4336
+[2026-06-23 04:47:30] EVRPTWTrainer.py(82) : Epoch 306/320: Time Est.: Elapsed[10.27h], Remain[28.19m]
+[2026-06-23 04:47:30] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:47:30] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:47:30] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:48:14] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:49:00] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:49:05] EVRPTWTrainer.py(149) : Epoch 307: Train (100%)  Score: 33.9060,  Loss: -0.2112
+[2026-06-23 04:49:05] EVRPTWTrainer.py(82) : Epoch 307/320: Time Est.: Elapsed[10.30h], Remain[26.16m]
+[2026-06-23 04:49:05] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:49:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:49:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:49:51] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:50:37] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:50:41] EVRPTWTrainer.py(149) : Epoch 308: Train (100%)  Score: 34.5176,  Loss: -0.5594
+[2026-06-23 04:50:41] EVRPTWTrainer.py(82) : Epoch 308/320: Time Est.: Elapsed[10.32h], Remain[24.13m]
+[2026-06-23 04:50:41] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:50:42] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:50:42] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:51:27] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:52:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:52:17] EVRPTWTrainer.py(149) : Epoch 309: Train (100%)  Score: 34.0139,  Loss: -0.3076
+[2026-06-23 04:52:17] EVRPTWTrainer.py(82) : Epoch 309/320: Time Est.: Elapsed[10.35h], Remain[22.10m]
+[2026-06-23 04:52:17] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:52:17] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:52:17] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:53:04] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:53:49] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:53:54] EVRPTWTrainer.py(149) : Epoch 310: Train (100%)  Score: 33.7747,  Loss: -0.3257
+[2026-06-23 04:53:54] EVRPTWTrainer.py(82) : Epoch 310/320: Time Est.: Elapsed[10.38h], Remain[20.08m]
+[2026-06-23 04:53:54] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:53:54] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:53:54] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:54:39] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:55:25] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:55:30] EVRPTWTrainer.py(149) : Epoch 311: Train (100%)  Score: 33.9076,  Loss: -0.4952
+[2026-06-23 04:55:30] EVRPTWTrainer.py(82) : Epoch 311/320: Time Est.: Elapsed[10.40h], Remain[18.06m]
+[2026-06-23 04:55:30] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:55:30] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:55:30] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:56:15] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:57:01] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:57:05] EVRPTWTrainer.py(149) : Epoch 312: Train (100%)  Score: 33.9415,  Loss: -0.5776
+[2026-06-23 04:57:05] EVRPTWTrainer.py(82) : Epoch 312/320: Time Est.: Elapsed[10.43h], Remain[16.04m]
+[2026-06-23 04:57:05] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:57:05] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:57:05] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:57:52] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 04:58:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 04:58:41] EVRPTWTrainer.py(149) : Epoch 313: Train (100%)  Score: 32.9847,  Loss: -0.2110
+[2026-06-23 04:58:41] EVRPTWTrainer.py(82) : Epoch 313/320: Time Est.: Elapsed[10.46h], Remain[14.03m]
+[2026-06-23 04:58:41] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 04:58:42] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 04:58:42] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 04:59:26] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 05:00:12] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 05:00:17] EVRPTWTrainer.py(149) : Epoch 314: Train (100%)  Score: 34.4318,  Loss: -0.2473
+[2026-06-23 05:00:17] EVRPTWTrainer.py(82) : Epoch 314/320: Time Est.: Elapsed[10.48h], Remain[12.02m]
+[2026-06-23 05:00:17] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 05:00:17] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 05:00:17] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 05:01:03] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 05:01:50] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 05:01:54] EVRPTWTrainer.py(149) : Epoch 315: Train (100%)  Score: 33.3386,  Loss: -0.2377
+[2026-06-23 05:01:54] EVRPTWTrainer.py(82) : Epoch 315/320: Time Est.: Elapsed[10.51h], Remain[10.01m]
+[2026-06-23 05:01:54] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 05:01:54] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 05:01:54] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 05:02:39] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 05:03:25] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 05:03:28] EVRPTWTrainer.py(149) : Epoch 316: Train (100%)  Score: 34.0606,  Loss: -0.4323
+[2026-06-23 05:03:28] EVRPTWTrainer.py(82) : Epoch 316/320: Time Est.: Elapsed[10.53h], Remain[8.00m]
+[2026-06-23 05:03:28] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 05:03:29] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 05:03:29] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 05:04:16] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 05:05:01] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 05:05:06] EVRPTWTrainer.py(149) : Epoch 317: Train (100%)  Score: 34.2453,  Loss: -0.4020
+[2026-06-23 05:05:06] EVRPTWTrainer.py(82) : Epoch 317/320: Time Est.: Elapsed[10.56h], Remain[6.00m]
+[2026-06-23 05:05:06] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 05:05:06] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 05:05:06] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 05:05:50] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 05:06:36] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 05:06:41] EVRPTWTrainer.py(149) : Epoch 318: Train (100%)  Score: 34.2294,  Loss: -0.3847
+[2026-06-23 05:06:41] EVRPTWTrainer.py(82) : Epoch 318/320: Time Est.: Elapsed[10.59h], Remain[4.00m]
+[2026-06-23 05:06:41] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 05:06:41] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 05:06:41] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 05:07:26] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 05:08:13] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 05:08:17] EVRPTWTrainer.py(149) : Epoch 319: Train (100%)  Score: 34.4527,  Loss: -0.2400
+[2026-06-23 05:08:17] EVRPTWTrainer.py(82) : Epoch 319/320: Time Est.: Elapsed[10.62h], Remain[2.00m]
+[2026-06-23 05:08:17] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 05:08:17] EVRPTWTrainer.py(68) : =================================================================
+[2026-06-23 05:08:17] EVRPTWTrainer.py(131) :   Batch 0/2000
+[2026-06-23 05:09:02] EVRPTWTrainer.py(131) :   Batch 960/2000
+[2026-06-23 05:09:47] EVRPTWTrainer.py(131) :   Batch 1920/2000
+[2026-06-23 05:09:51] EVRPTWTrainer.py(149) : Epoch 320: Train (100%)  Score: 33.6121,  Loss: -0.6658
+[2026-06-23 05:09:51] EVRPTWTrainer.py(82) : Epoch 320/320: Time Est.: Elapsed[10.64h], Remain[0.00m]
+[2026-06-23 05:09:51] EVRPTWTrainer.py(90) : Saving log_image
+[2026-06-23 05:09:52] EVRPTWTrainer.py(98) : Saving trained_model
+[2026-06-23 05:09:52] EVRPTWTrainer.py(116) :  *** Training Done *** 
+[2026-06-23 05:09:52] EVRPTWTrainer.py(117) : Now, printing log array...
+[2026-06-23 05:09:52] utils.py(236) : train_loss_list = [-1.8077441616505385, -5.063984285131097, -8.662478330016135, -4.891575058579445, -8.073210923433304, -4.38098194694519, -5.751757242947817, -5.387810210973024, -6.295354179561138, -4.896083687305451, -4.76155394589901, -7.76767653632164, -7.769341563045979, -5.742694630026818, -6.660989555358887, -6.424862332556397, -10.45919840490818, -10.332070035934448, -7.750077715694904, -9.946011821091176, -7.684508085466922, -9.529051229298116, -4.650732594847679, -6.677771479904652, -9.132640247821808, -8.096577768921852, -5.038993998169899, -7.125460476398468, -7.43887226319313, -5.270621975421905, -9.491193345069885, -5.884299549221993, -9.078445761561394, -8.50106967842579, -8.66271250617504, -7.787198332309723, -8.663168837205507, -8.565565317630767, -9.610451295375825, -7.909630151033402, -9.0314144872427, -9.529886036247015, -10.952565079450608, -10.586772664129734, -8.928512373685837, -10.636456231951714, -9.826343305453658, -9.368514545440673, -10.92856619977951, -8.499986330866813, -8.329733675420284, -8.636318380137906, -6.5425046971403065, -9.37362706363201, -9.758434784591199, -10.461757336437703, -8.921901359200477, -8.175968803048134, -8.982565517187119, -9.407629949867726, -9.40518038892746, -9.187117919693003, -7.637259152889252, -8.348859754920007, -8.685294154763222, -7.959052621126175, -8.012975797653198, -6.350346428140998, -7.201101261764765, -8.175260779380798, -6.891494902372361, -7.153279875338078, -6.28428939563036, -5.426244901657104, -5.509629117846489, -5.2718765269517895, -5.972603029251099, -5.200903267741204, -5.008615680873394, -4.671013684749603, -3.9937054114192723, -4.979248591959476, -4.817250284165144, -4.858432399272918, -4.181574329853058, -4.3523027561903, -4.9927381256818775, -3.6729729160517453, -4.578712969690561, -3.870963675023988, -3.7759646336957813, -4.246621926516294, -4.068767631649971, -3.538858935713768, -3.092054354712367, -3.8427720305994155, -3.1036556557416914, -3.80931170900166, -3.0202413794994354, -3.79261355984211, -3.5139787637423723, -2.9186933413743974, -3.3648263177871702, -3.584443957865238, -2.7737138775587082, -2.700293231546879, -2.794112265750766, -3.222241482466459, -3.0967880580493365, -2.923932342618704, -2.621862868309021, -3.5270386397838593, -2.8671929025053977, -2.546603971078992, -2.5258870813697576, -2.7522520040646197, -2.787683108121157, -2.6112617451548576, -2.634396503388882, -2.41600924795866, -2.302177950114012, -2.5025584679245947, -2.2811427845060823, -2.0820584698915483, -2.2573582049310206, -2.3629185003936293, -1.7167558324337007, -1.9002469866275786, -1.6108311159610749, -1.6503625952601433, -3.023132069416344, -1.7972103472352028, -1.9652863757163286, -1.628297962669283, -2.3407989004552365, -1.583753416493535, -1.8544325796365737, -1.9164002095162869, -1.9545903030633927, -1.6158524225354194, -1.5093627502433955, -1.7046675923243164, -1.6428044865997509, -1.4639172835573555, -1.6415966316461563, -1.5907524608001113, -1.6745795947536826, -1.306239535793662, -1.480593206362799, -2.253212466657162, -1.5657371510863305, -1.7963204399570822, -1.4425636482089759, -1.4088535971865057, -1.1805679714530706, -1.1974507584972307, -1.0293878751173615, -1.7047721406966447, -1.1869593987762928, -0.9709639767557383, -1.1378486253917217, -0.966689565166831, -1.0804117504283786, -1.684457503158599, -1.0109989795200527, -1.3426434191390872, -1.326346216544509, -2.1074797727912666, -1.7285234994888306, -1.1922653005346655, -0.9202086677998305, -1.330281648144126, -1.031680749100633, -0.975479804828763, -0.6904399816095829, -0.8048751975251361, -0.9315228469631401, -0.7235752301216125, -1.196532658111304, -1.9169603714719414, -1.1183224431797862, -1.1685265311785042, -0.8022868425147608, -0.9927236177027225, -0.49754323361441494, -0.7704598192842678, -1.2790394257567823, -0.7776404796876013, -1.2188808834850788, -1.3315420184209943, -0.8982761956751346, -1.160648997671902, -1.0255146225765348, -0.35231496348371727, -0.6633272756636143, -0.4761793879158795, -0.7750790569949895, -0.9964863307569176, -0.6155552200339734, -0.7462706426968798, -0.9579961073587183, -0.6935874482570216, -0.745579286470078, -0.9278671581568196, -0.8592633261978626, -0.8163621977642178, -0.7188382030799985, -0.759826031588018, -0.9962726211249828, -0.5453816132936626, -0.4971585560925305, -0.4262617974244058, -1.0371300087571145, -0.4935375336427242, -0.5961229557320475, -1.2061457790751011, -0.8652428105510771, -0.5447732092819643, -0.7161305293608456, -0.45787139270454646, -0.49148382142558694, -1.0499754212126136, -0.8269085224568844, -0.8465803673714399, -0.8430703147463501, -0.13214964200928808, -0.39112577080726624, -0.42423975674808023, -0.3118700691014528, -0.43278275067452343, -0.3532237488888204, -0.6368451662180014, -0.6049032381568104, -1.5016692291744984, -0.6824552602691111, -0.8313299695271998, -0.5693306958237663, -0.589126860762015, -0.33957818953134117, -0.403521847021766, -0.38151071512233464, -0.5461629512188956, -0.44237262348551304, -0.3376362657985883, -0.29740260359831155, -0.34787899113073945, -0.5672419719122117, -0.7655483715943993, -0.8412572459634393, -0.42821719198464414, -0.21789804887212813, -0.6231416382212192, -0.45626473708450793, -1.0289749097302556, -0.6179419595263899, -0.8095102224452421, -0.4114779028454795, -2.995182366054505, -1.2772748079635203, -0.9010029046796262, -0.38142653296142814, -0.5439284253846272, -0.5048036275599151, -0.399442878568545, -0.3847158097624779, -0.37067764381947926, -0.4155053165825084, -0.44523398983385415, -0.1473393119238317, -0.3744059950544033, -0.1540647689756006, -0.31856457263231275, -0.5545863220468163, -0.3305135498875752, -0.30438315116241577, -0.21576701105944812, -0.39555719535052775, -0.4048782667014748, -0.24845945078646764, -0.42855884178075937, -0.5071869944729842, -0.5946352094188333, -0.8493178734164685, -0.294231600582134, -0.5276442313129083, -0.42875267362967134, -0.14776042850501836, -0.2796883102055726, -0.25000405879225585, -0.5457960480451584, -0.43233180033584356, -0.18233238280005754, -0.19724792390689252, -0.32811256270110606, -0.2828441713321954, -0.44308601451385765, -0.7150689213331789, -0.3480584833100438, -0.39708836361113936, -0.18166149760782718, -0.5126449998315656, -0.1981324350833893, 0.011876555908471345, -0.07786117115523666, -0.19439292082935572, -0.43360469079669567, -0.21119603806443046, -0.5593584170173853, -0.30763845711387694, -0.3257434479687363, -0.4951686633190839, -0.5775984145272524, -0.210966540729627, -0.24731391223333776, -0.23774074098840356, -0.4323343234565109, -0.40200001998851076, -0.38470312488265335, -0.24002735177241266, -0.665795665625199]
+[2026-06-23 05:09:52] utils.py(236) : train_score_list = [69.02695729064942, 47.124217849731444, 43.23451336669922, 42.99685424804687, 44.918768676757814, 43.595546401977536, 43.50284497833252, 43.07450838470459, 43.98169583129883, 43.7530249786377, 44.19861193084717, 42.89470762634277, 42.38784848022461, 43.58275750732422, 42.750871826171874, 42.380369110107424, 41.88480355834961, 41.071422187805176, 38.85208437347412, 38.718767189025876, 38.113992042541504, 38.07425361633301, 37.3106876449585, 36.20578911590576, 36.394483596801756, 36.596979484558105, 37.21654583740234, 35.74908254241944, 36.55770482635498, 35.3568065032959, 35.51252598571777, 36.11275201416016, 35.462650009155276, 35.048418228149416, 35.843816040039066, 35.618014869689944, 35.35695405578613, 34.848080337524415, 35.821748062133786, 35.934582153320314, 35.15139015197754, 35.312480880737304, 34.55555449676514, 35.04275395202637, 36.029621437072755, 34.809944801330566, 35.485772567749024, 34.589035430908204, 35.09979578399658, 35.519385162353515, 34.424939544677734, 35.13447015380859, 34.76847582244873, 35.43020578765869, 34.89628260803222, 35.335769035339354, 35.00606090545654, 34.43676819610596, 34.70854871368408, 34.75147687530517, 35.08050243377686, 34.45096061706543, 34.727939476013184, 34.906180541992185, 34.7504811706543, 34.20097836303711, 34.660231925964354, 35.21449922180176, 35.0226436920166, 34.03771622467041, 34.389319190979, 34.13712693786621, 34.55420899963379, 34.68411177062988, 35.230715866088865, 34.99120552825928, 34.553104194641115, 34.9072360534668, 34.04822501373291, 34.28914083862305, 34.554499877929686, 35.16309526824951, 34.82461805725098, 33.59486351013184, 34.19337377929688, 34.26883670806885, 33.804464698791506, 35.09630143737793, 35.02898166656494, 35.155104782104495, 34.67903269195557, 34.874487045288085, 34.24669774627686, 34.67667942047119, 34.248941734313966, 34.171137283325194, 34.23184774017334, 34.8231643447876, 34.159006774902345, 33.768561485290526, 34.435498046875, 34.517967880249024, 34.808884185791015, 34.620580177307126, 34.825389739990236, 34.565487380981445, 34.55174710083008, 33.77597254180908, 33.96961387634278, 34.14515046691894, 34.17372477722168, 34.07316695404053, 33.88793120574951, 33.55818899536133, 33.90262000274658, 34.1703148727417, 34.08736203765869, 34.63194677734375, 33.613261367797854, 34.93000886535645, 33.54979022216797, 34.55805209350586, 33.96380729675293, 34.418897598266604, 33.943357246398925, 34.6800813369751, 34.50949811553955, 34.06917254638672, 33.8646570892334, 34.387622047424315, 34.82602906799316, 33.64003544616699, 33.57283229827881, 34.64433086395264, 35.26005672454834, 33.79230416870117, 34.43520401000976, 34.074402137756344, 34.301642272949216, 33.65214727020264, 34.19068273162842, 34.24091771697998, 34.66390049743652, 34.59426833343506, 34.68422634124756, 33.91352444458008, 34.33618212890625, 34.033837799072266, 33.297215095520016, 34.62056693267822, 34.59210890197754, 34.001533317565915, 33.5126907119751, 34.07458072662354, 33.62377886199951, 34.155520095825196, 33.53704515838623, 34.564101593017575, 33.42947967529297, 33.956496978759766, 33.89080387115479, 34.00983363342285, 34.531850242614745, 34.37566596984863, 33.98745295715332, 34.15486400604248, 33.903287841796875, 35.72650023651123, 34.25589669799805, 33.69651229858398, 33.40444708251953, 33.99619499969482, 33.41688007354736, 34.484438041687014, 33.276687164306644, 34.48057952880859, 34.00568035888672, 33.825520965576175, 33.98404295349121, 33.64372672271728, 34.026358123779296, 34.22248937988281, 33.867868362426755, 34.02597102355957, 34.02618747711182, 33.519458396911624, 33.34667529296875, 34.38688706207275, 34.460984596252445, 34.65084969329834, 34.24695147705078, 34.6302963180542, 33.45831739807129, 33.418273109436036, 34.17996367645264, 34.22056282806396, 33.604351081848144, 34.033820068359375, 33.771912574768066, 33.790629020690915, 33.64963597869873, 33.865383346557614, 34.51954920196533, 34.497396522521974, 34.30624189758301, 33.90013025665283, 34.45186270141602, 33.3514677734375, 34.09006781005859, 33.63936794281006, 34.225428993225094, 33.967696388244626, 33.61236888885498, 34.261906204223635, 34.307096824645996, 34.099580436706546, 34.615597717285155, 34.41965689086914, 34.31772430419922, 33.674802436828614, 33.30272034454346, 34.38863948059082, 34.36034056091309, 34.07232917022705, 34.16616724395752, 34.012728485107424, 33.52504183197021, 33.39377280426025, 34.234885795593264, 33.70753079986572, 34.314010215759275, 34.00257950592041, 34.41215561676025, 34.72030655670166, 34.42332924652099, 33.506852241516114, 34.05308988189697, 34.35161471557617, 34.02877506256104, 33.16014663696289, 34.15954898834229, 34.55913772583008, 33.49114717102051, 33.745210098266604, 33.305270462036134, 34.43647661590576, 33.952598876953125, 34.27312800598145, 33.95043015289307, 33.37515465545654, 33.93623258209229, 33.88933032226562, 34.58023580932617, 35.52298999023437, 34.35879628753662, 34.19128227996826, 33.332794807434084, 36.214051597595216, 34.48801945495605, 34.88466215515137, 33.684040283203124, 33.42722155761719, 33.76762599182129, 33.481167221069335, 33.357900581359864, 34.1774747467041, 33.58913800048828, 33.13169660949707, 34.25586926269531, 34.38355332183838, 33.30111541748047, 34.28130342102051, 33.71847971343994, 33.76530477142334, 33.81004908752441, 33.78053936767578, 33.696556312561036, 33.785619689941406, 33.985567039489744, 33.488936225891116, 33.91956798553467, 34.28943580627441, 34.64617381286621, 33.22568212890625, 34.43735720825195, 33.87756777954102, 33.31613954162598, 34.641835655212404, 33.0995626373291, 34.47499616241455, 33.708360496520996, 33.597613265991214, 34.22788776397705, 34.2821276473999, 34.469561546325686, 33.371181045532225, 34.355407684326174, 33.54957907867431, 33.268807662963866, 33.87262031555176, 34.57529907989502, 33.869797706604004, 34.07466884613037, 34.04192232513428, 33.87825337982178, 33.42326000213623, 33.90603190612793, 34.51758656311035, 34.013881980895995, 33.77474579620361, 33.90763088989258, 33.9414518737793, 32.98465483093262, 34.43183596801758, 33.3386333694458, 34.060550750732425, 34.24529605102539, 34.22942194366455, 34.45274010467529, 33.61213178253174]

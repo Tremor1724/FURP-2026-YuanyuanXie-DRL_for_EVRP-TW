@@ -1,0 +1,14 @@
+{
+  "method": "POMO",
+  "problem": "EVRP-TW",
+  "problem_size": 50,
+  "constraints": [
+    "energy",
+    "time_window"
+  ],
+  "objective": 32.228,
+  "objective_type": "minimize_distance",
+  "runtime_seconds": 8.643,
+  "feasible": true,
+  "notes": "Single-vehicle multi-trip, 8-fold aug"
+}

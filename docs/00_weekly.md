@@ -29,6 +29,17 @@
 ---
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
+### Week 2.5 - 2026-6-22 to 6-23 [特殊情况: 对Week2工作的补充ReportSection]
+
+**Attended this week's meeting:** Yes 
+
+**Progress this week**
+- Make up the Week2 section work on Week3 Mon.
+
+**Other Details**
+Please check at ../src/Week2/
+
+----------------------------------------------
 
 ### Week 2 — 2026-6-13 to 6-21
 

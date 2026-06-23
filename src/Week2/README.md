@@ -27,7 +27,7 @@
 ***Part 2***
 <br>
 ```
-Week2/
+Week2_Section/
 ├── evrptw50_test_2.pt             #最终用来对比的数据集
 ├── test_data_readable_2.txt
 ├── ORTools/
@@ -41,7 +41,11 @@ Week2/
 │   │   ├── Test/
 │   │   └── Modelsave/
 │   ├── test_evrptw_50.py
+│   ├── train_evrptw_50.py
+│   ├── EVRPTWEnv.py
+│   ├── EVRPTWModel.py
 │   ├── EVRPTWTester.py
+│   ├── EVRPTWTrainer.py
 │   ├── EVRPTWProblemDef_wid.py
 │   └── Env_requirements_POMO_evrptw.txt
 ├── GA/
@@ -52,6 +56,7 @@ Week2/
 │   └── Env_requirements_GA_evrptw.txt
 └── README.md
 ```
+<br>（写是这么写了但因为我电脑和代码里的文件路径都有点乱所以就先只写个大概 + 传results了）
 
 ----------------------------------------
 ***Part N***
@@ -63,4 +68,5 @@ Week2/
 <br>2.总之结果是一个 [time] POMO < ORTools < GA ; [Outcome] POMO < GA < ORTools 的大状态
 <br>  感觉ortools无论是第一周复现的时候还是这周加约束维度的时候确实还是要稳一点，但是POMO和GA本身可以调节的地方也更多;
 <br>
-<br>3.最后test_2.pt里第381和959号样例ortools和GA都没能跑出来。我一开始在想会不会是纯无解的场景，但是POMO那边跑出来了，而且结果也还算正常，所以多半就是该场景对ORTools和GA来讲约束太严的问题了。所以说虽然POMO的最终结果比另外两个差很多，但是在严约束条件下找到解这方面还是得要DRL吧。（纯粹是我个人知识储备限制了实现嗯。）（总之报告先写到这里，我再捣鼓捣鼓...）（那要捣鼓的东西很多了.JPG）
+<br>3.最后test_2.pt里第381和959号样例ortools和GA都没能跑出来。我一开始在想会不会是纯无解的场景，但是POMO那边跑出来了，结果也还算正常，应该就是这两个场景对ORTools和GA来讲约束太严了。
+<br>  所以说虽然POMO的最终结果比另外两个差很多，但是在严约束条件下找到解这方面还是得要DRL吧。（纯粹是我个人知识储备限制了实现嗯。）（总之报告先写到这里，我再捣鼓捣鼓...）（那要捣鼓的东西很多了.JPG）

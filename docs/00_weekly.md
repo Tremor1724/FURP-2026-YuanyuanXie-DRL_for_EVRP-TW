@@ -29,6 +29,32 @@
 ---
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
+### Week 3 - 2026-6-24 to 6-30
+
+**Attended this week's meeting:** Yes 
+
+**Progress this week**
+- Choose a baseline for EVRPTW task: Schneider, Stenger, and Goeke(2014)
+- Download the data that Goeke provided on website: https://data.mendeley.com/datasets/h3mrm5dhxw/1
+- Write  .txt->.pt data loader
+- Change the ProblemDef, Env, Model and other part of the code to be aligned with the Schneider's data background, but unfinished.
+
+**Challenges & blockers**
+- Last week, to simply compare the ability of ORTools, POMO, and GA methods in EVRPTW area, I created a simple task background, ignoring the importance of Baseline.
+- This week, I found the data shown above. However, its problem define is more strict, which makes me have to:
+  1. add a C constraint on my last week work
+  2. let the number of stations to be changeable
+  3. deal with more strict timewindows + C requirements
+- I tried to do these works, but during the training time, I found the score (road distance) become very small. So I choose to train n5 model only.
+- When n5 model finish its training, I use the data to test the model, finally got a smaller distance number than the best distance Schneider provided. (e.g. for task c101-5: 76.16 vs 257.75;) 
+- So I realized that my model didn't finish the lowest problem requirement and confirm this with print checking flags.
+
+**Next steps**
+- I've found the directly question: most of time, the Customer nodes are hidden by the Mask. But the reason is still unclear, I'll keep examining the wrong part of my code.
+  
+
+---------------------------------------------
+
 ### Week 2.5 - 2026-6-22 to 6-23 [特殊情况: 对Week2工作的补充ReportSection]
 
 **Attended this week's meeting:** Yes 

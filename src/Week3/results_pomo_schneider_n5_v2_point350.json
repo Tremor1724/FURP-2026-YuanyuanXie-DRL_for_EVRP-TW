@@ -1,0 +1,69 @@
+{
+  "method": "POMO (DRL)",
+  "test_set": "Schneider 5 customers",
+  "num_instances": 12,
+  "average_distance": 5106.35,
+  "runtime_seconds": 1.598,
+  "instance_results": [
+    {
+      "instance": "c103C5",
+      "best_distance": 204.5,
+      "avg_runtime_seconds": 0.75
+    },
+    {
+      "instance": "c101C5",
+      "best_distance": 10000.0,
+      "avg_runtime_seconds": 0.071
+    },
+    {
+      "instance": "c208C5",
+      "best_distance": 244.44,
+      "avg_runtime_seconds": 0.071
+    },
+    {
+      "instance": "r104C5",
+      "best_distance": 10000.0,
+      "avg_runtime_seconds": 0.071
+    },
+    {
+      "instance": "r105C5",
+      "best_distance": 10000.0,
+      "avg_runtime_seconds": 0.071
+    },
+    {
+      "instance": "r202C5",
+      "best_distance": 204.71,
+      "avg_runtime_seconds": 0.071
+    },
+    {
+      "instance": "rc208C5",
+      "best_distance": 174.38,
+      "avg_runtime_seconds": 0.071
+    },
+    {
+      "instance": "c206C5",
+      "best_distance": 261.67,
+      "avg_runtime_seconds": 0.08
+    },
+    {
+      "instance": "r203C5",
+      "best_distance": 10000.0,
+      "avg_runtime_seconds": 0.08
+    },
+    {
+      "instance": "rc105C5",
+      "best_distance": 10000.0,
+      "avg_runtime_seconds": 0.08
+    },
+    {
+      "instance": "rc108C5",
+      "best_distance": 10000.0,
+      "avg_runtime_seconds": 0.08
+    },
+    {
+      "instance": "rc204C5",
+      "best_distance": 186.48,
+      "avg_runtime_seconds": 0.08
+    }
+  ]
+}
